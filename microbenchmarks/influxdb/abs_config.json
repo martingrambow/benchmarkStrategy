@@ -1,0 +1,10 @@
+{
+	"project": "/home/pi/influxdbOld",
+	"project2": "/home/pi/influxdbNew",
+	"dynamic": {
+		"bench_time": "1s",
+		"bench_timeout": "10s",
+		"i": 5,
+		"runs": 3
+	}
+}

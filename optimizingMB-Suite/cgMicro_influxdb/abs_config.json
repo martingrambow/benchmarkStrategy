@@ -1,0 +1,12 @@
+{
+	"project": "/home/pi/influxdb",
+	"dynamic": {
+		"bench_time": "10s",
+		"bench_timeout": "20s",
+		"i": 1,
+		"runs": 1,
+		"bench_mem": true,
+		"profile": "cpu",
+		"profile_dir": "/home/pi/profiles"
+	}
+}
