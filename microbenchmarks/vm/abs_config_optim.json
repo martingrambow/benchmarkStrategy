@@ -1,0 +1,44 @@
+{
+    "project": "/home/loposkin/vmOld",
+    "project2": "/home/loposkin/vmNew",
+    "dynamic": {
+        "bench_time": "1s",
+        "bench_timeout": "10s",
+        "i": 5,
+        "runs": 3,
+        "include_benchs": [
+            {
+                "pkg": "/lib/storage",
+                "name": "BenchmarkIndexDBAddTSIDs"
+            },
+            {
+                "pkg": "/lib/storage",
+                "name": "BenchmarkStorageAddRows"
+            },
+            {
+                "pkg": "/lib/storage",
+                "name": "BenchmarkMergeBlockStreamsFourSourcesBestCase"
+            },
+            {
+                "pkg": "/lib/storage",
+                "name": "BenchmarkInmemoryPartInitFromRowsWorstCase"
+            },
+            {
+                "pkg": "/lib/uint64set",
+                "name": "BenchmarkAddMulti"
+            },
+            {
+                "pkg": "/lib/protoparser/influx",
+                "name": "BenchmarkRowsUnmarshal"
+            },
+            {
+                "pkg": "/lib/storage",
+                "name": "BenchmarkMergeBlockStreamsFourSourcesWorstCase"
+            },
+            {
+                "pkg": "/lib/uint64set",
+                "name": "BenchmarkIntersectPartialOverlap"
+            }
+        ]
+    }
+}
