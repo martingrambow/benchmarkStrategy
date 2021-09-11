@@ -1,6 +1,6 @@
 #!/bin/bash
 
-commitTable="commitTable.csv"
+commitTable="commitTable_15.csv"
 
 startNum=$1
 endNum=$2

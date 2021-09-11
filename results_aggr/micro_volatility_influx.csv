@@ -1,0 +1,819 @@
+,name,var,volatility
+0,BenchmarkAppendUnescaped-2,2.545056002508817,1% - 3%
+1,BenchmarkAppendUnescaped-2,2.2096321400571823,1% - 3%
+2,BenchmarkBlockTypeToInfluxQLDataType-2,1.4550098456094231,1% - 3%
+3,BenchmarkBlockTypeToInfluxQLDataType-2,1.6639677208302506,1% - 3%
+4,BenchmarkBooleanArrayDecodeAll-1-2,0.545234028139463,< 1%
+5,BenchmarkBooleanArrayDecodeAll-1-2,0.4672300583657419,< 1%
+6,BenchmarkBooleanArrayDecodeAll-1000-2,0.4723225405287024,< 1%
+7,BenchmarkBooleanArrayDecodeAll-1000-2,0.4736648778433827,< 1%
+8,BenchmarkBooleanArrayDecodeAll-55-2,0.4681792435690557,< 1%
+9,BenchmarkBooleanArrayDecodeAll-55-2,0.4531955692030576,< 1%
+10,BenchmarkBooleanArrayDecodeAll-555-2,0.4678925473009521,< 1%
+11,BenchmarkBooleanArrayDecodeAll-555-2,0.35194427360952796,< 1%
+12,BenchmarkBooleanDecoder_DecodeAll-1-2,0.45081379471310057,< 1%
+13,BenchmarkBooleanDecoder_DecodeAll-1-2,0.38395913179660734,< 1%
+14,BenchmarkBooleanDecoder_DecodeAll-1000-2,0.30557868442964153,< 1%
+15,BenchmarkBooleanDecoder_DecodeAll-1000-2,0.8833105357097693,< 1%
+16,BenchmarkBooleanDecoder_DecodeAll-55-2,0.395836506649061,< 1%
+17,BenchmarkBooleanDecoder_DecodeAll-55-2,0.6010224466942882,< 1%
+18,BenchmarkBooleanDecoder_DecodeAll-555-2,0.29855713867822375,< 1%
+19,BenchmarkBooleanDecoder_DecodeAll-555-2,0.844294733106965,< 1%
+20,BenchmarkBytesEscapeMany-2,1.1573261042706506,1% - 3%
+21,BenchmarkBytesEscapeMany-2,1.6478242664347609,1% - 3%
+22,BenchmarkBytesEscapeNoEscapes-2,1.134031034959537,1% - 3%
+23,BenchmarkBytesEscapeNoEscapes-2,1.858290208014468,1% - 3%
+24,BenchmarkCacheParallelFloatEntries-2,9.88004489217511,5% - 10%
+25,BenchmarkContains_False-2,0.3996006408513719,< 1%
+26,BenchmarkContains_False-2,0.7996550874599717,< 1%
+27,BenchmarkContains_True-2,0.5231877477132163,< 1%
+28,BenchmarkContains_True-2,0.9964324568620175,< 1%
+29,BenchmarkCountIterator_100K-2,0.5299140721463647,< 1%
+30,BenchmarkCountIterator_100K-2,0.44758071163494284,< 1%
+31,BenchmarkCountIterator_1K-2,0.6788097577756669,< 1%
+32,BenchmarkCountIterator_1K-2,0.7545909504967585,< 1%
+33,BenchmarkCountIterator_1M-2,0.5755607545844255,< 1%
+34,BenchmarkCountIterator_1M-2,0.6319332516984466,< 1%
+35,BenchmarkCreateIterator-tsi1_shards_1-2,2.4609391734663255,1% - 3%
+36,BenchmarkCreateIterator-tsi1_shards_1-2,2.1490235623985443,1% - 3%
+37,BenchmarkCreateIterator-tsi1_shards_2-2,1.844615654568671,1% - 3%
+38,BenchmarkCreateIterator-tsi1_shards_2-2,2.8056335069801097,1% - 3%
+39,BenchmarkCreateIterator-tsi1_shards_3-2,2.787121919822644,1% - 3%
+40,BenchmarkCreateIterator-tsi1_shards_3-2,2.602766949476409,1% - 3%
+41,BenchmarkCreateIterator-tsi1_shards_4-2,2.9166257614823166,1% - 3%
+42,BenchmarkCreateIterator-tsi1_shards_4-2,4.053751137519413,3% - 5%
+43,BenchmarkCreateIterator-tsi1_shards_5-2,2.9813355890852655,1% - 3%
+44,BenchmarkCreateIterator-tsi1_shards_5-2,2.861194792382371,1% - 3%
+45,BenchmarkDecode-2,0.6408603457543016,< 1%
+46,BenchmarkDecode-2,1.3249849801476699,1% - 3%
+47,BenchmarkDecodeBlock_Boolean_Empty-2,2.850921176745369,1% - 3%
+48,BenchmarkDecodeBlock_Boolean_Empty-2,2.7053130567660233,1% - 3%
+49,BenchmarkDecodeBlock_Boolean_EqualSize-2,1.7947170014970926,1% - 3%
+50,BenchmarkDecodeBlock_Boolean_EqualSize-2,2.4300407279094216,1% - 3%
+51,BenchmarkDecodeBlock_Boolean_TypeSpecific-2,0.4355575945660939,< 1%
+52,BenchmarkDecodeBlock_Boolean_TypeSpecific-2,0.4701156900212222,< 1%
+53,BenchmarkDecodeBlock_Float_Empty-2,2.1965616931480474,1% - 3%
+54,BenchmarkDecodeBlock_Float_Empty-2,2.3378743408665636,1% - 3%
+55,BenchmarkDecodeBlock_Float_EqualSize-2,1.9826036158728133,1% - 3%
+56,BenchmarkDecodeBlock_Float_EqualSize-2,2.2207468863010726,1% - 3%
+57,BenchmarkDecodeBlock_Float_TypeSpecific-2,0.31367197337163205,< 1%
+58,BenchmarkDecodeBlock_Float_TypeSpecific-2,0.3861735505085173,< 1%
+59,BenchmarkDecodeBlock_Integer_Empty-2,2.064720827011013,1% - 3%
+60,BenchmarkDecodeBlock_Integer_Empty-2,2.9815542099654313,1% - 3%
+61,BenchmarkDecodeBlock_Integer_EqualSize-2,2.3605342264938156,1% - 3%
+62,BenchmarkDecodeBlock_Integer_EqualSize-2,2.9092401774925563,1% - 3%
+63,BenchmarkDecodeBlock_Integer_TypeSpecific-2,0.4292790289924797,< 1%
+64,BenchmarkDecodeBlock_Integer_TypeSpecific-2,0.7446332781968601,< 1%
+65,BenchmarkDecodeBlock_String_Empty-2,2.193681215752208,1% - 3%
+66,BenchmarkDecodeBlock_String_Empty-2,2.7365563244004525,1% - 3%
+67,BenchmarkDecodeBlock_String_EqualSize-2,2.6699379093577447,1% - 3%
+68,BenchmarkDecodeBlock_String_EqualSize-2,2.4135498537608884,1% - 3%
+69,BenchmarkDecodeBlock_String_TypeSpecific-2,3.1908188750238926,3% - 5%
+70,BenchmarkDecodeBlock_String_TypeSpecific-2,3.4666535106187895,3% - 5%
+71,BenchmarkDecodeBooleanArrayBlock-1000-2,0.38519187797292354,< 1%
+72,BenchmarkDecodeBooleanArrayBlock-1000-2,1.2845215157353704,1% - 3%
+73,BenchmarkDecodeBooleanArrayBlock-5-2,0.5185085449788351,< 1%
+74,BenchmarkDecodeBooleanArrayBlock-5-2,0.7952429244623915,< 1%
+75,BenchmarkDecodeBooleanArrayBlock-55-2,0.3851846141086801,< 1%
+76,BenchmarkDecodeBooleanArrayBlock-55-2,0.4587161329797307,< 1%
+77,BenchmarkDecodeBooleanArrayBlock-555-2,0.3739260768921726,< 1%
+78,BenchmarkDecodeBooleanArrayBlock-555-2,0.37351704969870175,< 1%
+79,BenchmarkDecodeBooleanBlock-1000-2,0.32458497594971547,< 1%
+80,BenchmarkDecodeBooleanBlock-1000-2,0.23966738201071092,< 1%
+81,BenchmarkDecodeBooleanBlock-5-2,0.607237815878392,< 1%
+82,BenchmarkDecodeBooleanBlock-5-2,0.6015040994426513,< 1%
+83,BenchmarkDecodeBooleanBlock-55-2,0.6110729342061023,< 1%
+84,BenchmarkDecodeBooleanBlock-55-2,0.5098265967831361,< 1%
+85,BenchmarkDecodeBooleanBlock-555-2,0.42074545983145084,< 1%
+86,BenchmarkDecodeBooleanBlock-555-2,0.571202575374441,< 1%
+87,BenchmarkDecodeFloatArrayBlock-1000-2,0.3104787677508103,< 1%
+88,BenchmarkDecodeFloatArrayBlock-1000-2,0.7934577162295287,< 1%
+89,BenchmarkDecodeFloatArrayBlock-5-2,0.4196472939971947,< 1%
+90,BenchmarkDecodeFloatArrayBlock-5-2,1.0978672078002734,1% - 3%
+91,BenchmarkDecodeFloatArrayBlock-55-2,0.44805465833350766,< 1%
+92,BenchmarkDecodeFloatArrayBlock-55-2,0.682485379199238,< 1%
+93,BenchmarkDecodeFloatArrayBlock-555-2,0.37151702786377694,< 1%
+94,BenchmarkDecodeFloatArrayBlock-555-2,0.8035726233967866,< 1%
+95,BenchmarkDecodeFloatBlock-1000-2,1.2644253743869127,1% - 3%
+96,BenchmarkDecodeFloatBlock-1000-2,1.7910658549402103,1% - 3%
+97,BenchmarkDecodeFloatBlock-5-2,0.42379100839974315,< 1%
+98,BenchmarkDecodeFloatBlock-5-2,0.4772994686471854,< 1%
+99,BenchmarkDecodeFloatBlock-55-2,2.1165500122990233,1% - 3%
+100,BenchmarkDecodeFloatBlock-55-2,2.132573329967058,1% - 3%
+101,BenchmarkDecodeFloatBlock-555-2,1.7248765422790857,1% - 3%
+102,BenchmarkDecodeFloatBlock-555-2,1.421014839244572,1% - 3%
+103,BenchmarkDecodeFloats-1000_ran-2,0.631230248795156,< 1%
+104,BenchmarkDecodeFloats-1000_ran-2,0.5837790533295917,< 1%
+105,BenchmarkDecodeFloats-1000_seq-2,0.3179002813153531,< 1%
+106,BenchmarkDecodeFloats-1000_seq-2,0.7291298184381345,< 1%
+107,BenchmarkDecodeFloats-1_ran-2,0.3863440402053442,< 1%
+108,BenchmarkDecodeFloats-1_ran-2,0.4413798139012548,< 1%
+109,BenchmarkDecodeFloats-1_seq-2,0.3254973407031847,< 1%
+110,BenchmarkDecodeFloats-1_seq-2,0.595298118074683,< 1%
+111,BenchmarkDecodeFloats-550_ran-2,0.801420200792835,< 1%
+112,BenchmarkDecodeFloats-550_ran-2,0.5846695642934163,< 1%
+113,BenchmarkDecodeFloats-550_seq-2,0.3079028395484018,< 1%
+114,BenchmarkDecodeFloats-550_seq-2,0.5811145674065488,< 1%
+115,BenchmarkDecodeFloats-55_ran-2,10.194072385623365,> 10%
+116,BenchmarkDecodeFloats-55_ran-2,10.415936405867887,> 10%
+117,BenchmarkDecodeFloats-55_seq-2,0.3850369437752965,< 1%
+118,BenchmarkDecodeFloats-55_seq-2,0.44828731728925325,< 1%
+119,BenchmarkDecodeIntegerArrayBlock-rle_1000-2,0.4114551721147941,< 1%
+120,BenchmarkDecodeIntegerArrayBlock-rle_1000-2,0.6587076216075571,< 1%
+121,BenchmarkDecodeIntegerArrayBlock-rle_5-2,0.46639055369382953,< 1%
+122,BenchmarkDecodeIntegerArrayBlock-rle_5-2,0.6386164205221978,< 1%
+123,BenchmarkDecodeIntegerArrayBlock-rle_55-2,0.5928156441966428,< 1%
+124,BenchmarkDecodeIntegerArrayBlock-rle_55-2,0.42705684521370246,< 1%
+125,BenchmarkDecodeIntegerArrayBlock-rle_555-2,0.2902758353924395,< 1%
+126,BenchmarkDecodeIntegerArrayBlock-rle_555-2,0.29058795639697044,< 1%
+127,BenchmarkDecodeIntegerArrayBlock-s8b_1000-2,0.4235656526761611,< 1%
+128,BenchmarkDecodeIntegerArrayBlock-s8b_1000-2,0.5024834634763775,< 1%
+129,BenchmarkDecodeIntegerArrayBlock-s8b_5-2,0.5690105318659548,< 1%
+130,BenchmarkDecodeIntegerArrayBlock-s8b_5-2,0.35841882306509865,< 1%
+131,BenchmarkDecodeIntegerArrayBlock-s8b_55-2,0.3336506403833095,< 1%
+132,BenchmarkDecodeIntegerArrayBlock-s8b_55-2,0.47280275931089744,< 1%
+133,BenchmarkDecodeIntegerArrayBlock-s8b_555-2,0.4087193460490468,< 1%
+134,BenchmarkDecodeIntegerArrayBlock-s8b_555-2,0.47141203193481473,< 1%
+135,BenchmarkDecodeIntegerBlock-rle_1000-2,3.295291722670224,3% - 5%
+136,BenchmarkDecodeIntegerBlock-rle_1000-2,1.8645297379681793,1% - 3%
+137,BenchmarkDecodeIntegerBlock-rle_5-2,1.203738683283051,1% - 3%
+138,BenchmarkDecodeIntegerBlock-rle_5-2,1.0678832382503667,1% - 3%
+139,BenchmarkDecodeIntegerBlock-rle_55-2,0.9817447911890207,< 1%
+140,BenchmarkDecodeIntegerBlock-rle_55-2,0.9525002693913991,< 1%
+141,BenchmarkDecodeIntegerBlock-rle_555-2,2.9000461289296013,1% - 3%
+142,BenchmarkDecodeIntegerBlock-rle_555-2,4.2748635005293805,3% - 5%
+143,BenchmarkDecodeIntegerBlock-s8b_1000-2,4.096332142873982,3% - 5%
+144,BenchmarkDecodeIntegerBlock-s8b_1000-2,3.700126821269234,3% - 5%
+145,BenchmarkDecodeIntegerBlock-s8b_5-2,0.9807427936956215,< 1%
+146,BenchmarkDecodeIntegerBlock-s8b_5-2,1.179988083077976,1% - 3%
+147,BenchmarkDecodeIntegerBlock-s8b_55-2,0.9101363097357207,< 1%
+148,BenchmarkDecodeIntegerBlock-s8b_55-2,1.0234076224501898,1% - 3%
+149,BenchmarkDecodeIntegerBlock-s8b_555-2,3.353105372711973,3% - 5%
+150,BenchmarkDecodeIntegerBlock-s8b_555-2,3.1488471178739874,3% - 5%
+151,BenchmarkDecoder-2,0.6325833206398901,< 1%
+152,BenchmarkDecoder-2,0.657752236695075,< 1%
+153,BenchmarkDecodeStringArrayBlock-1000-2,1.0564451241027117,1% - 3%
+154,BenchmarkDecodeStringArrayBlock-1000-2,1.7231556344106003,1% - 3%
+155,BenchmarkDecodeStringArrayBlock-5-2,1.707140569205034,1% - 3%
+156,BenchmarkDecodeStringArrayBlock-5-2,1.9092489240007073,1% - 3%
+157,BenchmarkDecodeStringArrayBlock-55-2,1.9019594786459644,1% - 3%
+158,BenchmarkDecodeStringArrayBlock-55-2,1.990697175453504,1% - 3%
+159,BenchmarkDecodeStringArrayBlock-555-2,2.3498250655808572,1% - 3%
+160,BenchmarkDecodeStringArrayBlock-555-2,2.2475940575733877,1% - 3%
+161,BenchmarkDecodeStringBlock-1000-2,2.4154027646819283,1% - 3%
+162,BenchmarkDecodeStringBlock-1000-2,2.216020988826095,1% - 3%
+163,BenchmarkDecodeStringBlock-5-2,1.1421397193231986,1% - 3%
+164,BenchmarkDecodeStringBlock-5-2,1.6484670972252475,1% - 3%
+165,BenchmarkDecodeStringBlock-55-2,2.737847552998263,1% - 3%
+166,BenchmarkDecodeStringBlock-55-2,4.320271063264059,3% - 5%
+167,BenchmarkDecodeStringBlock-555-2,1.63867849487217,1% - 3%
+168,BenchmarkDecodeStringBlock-555-2,2.6390103601113495,1% - 3%
+169,BenchmarkDistinctIterator_100K-2,1.4121074792714516,1% - 3%
+170,BenchmarkDistinctIterator_100K-2,1.5570304450795107,1% - 3%
+171,BenchmarkDistinctIterator_1K-2,1.645465739929275,1% - 3%
+172,BenchmarkDistinctIterator_1K-2,1.1006291457033472,1% - 3%
+173,BenchmarkDistinctIterator_1M-2,4.774607149369436,3% - 5%
+174,BenchmarkDistinctIterator_1M-2,3.010422139125813,3% - 5%
+175,BenchmarkEncodeBooleans-1000_ran-batch-2,0.9731461079367068,< 1%
+176,BenchmarkEncodeBooleans-1000_ran-batch-2,0.7720382837910209,< 1%
+177,BenchmarkEncodeBooleans-1000_ran-itr-2,0.926711757259413,< 1%
+178,BenchmarkEncodeBooleans-1000_ran-itr-2,0.927958265266482,< 1%
+179,BenchmarkEncodeBooleans-100_ran-batch-2,0.8847425933218522,< 1%
+180,BenchmarkEncodeBooleans-100_ran-batch-2,0.8363267884198722,< 1%
+181,BenchmarkEncodeBooleans-100_ran-itr-2,1.676288249600777,1% - 3%
+182,BenchmarkEncodeBooleans-100_ran-itr-2,2.0131988789398703,1% - 3%
+183,BenchmarkEncodeBooleans-10_ran-batch-2,1.4911514004418702,1% - 3%
+184,BenchmarkEncodeBooleans-10_ran-batch-2,1.0482512858990045,1% - 3%
+185,BenchmarkEncodeBooleans-10_ran-itr-2,1.2931290524093475,1% - 3%
+186,BenchmarkEncodeBooleans-10_ran-itr-2,1.7967219096233222,1% - 3%
+187,BenchmarkEncoder-2,0.519739280513043,< 1%
+188,BenchmarkEncoder-2,0.7657607659911303,< 1%
+189,BenchmarkEncodeStrings-10-batch-2,1.518537831433464,1% - 3%
+190,BenchmarkEncodeStrings-10-batch-2,1.3511922111842378,1% - 3%
+191,BenchmarkEncodeStrings-10-itr-2,2.043639468344838,1% - 3%
+192,BenchmarkEncodeStrings-10-itr-2,2.468803985686075,1% - 3%
+193,BenchmarkEncodeStrings-100-batch-2,1.578533083228617,1% - 3%
+194,BenchmarkEncodeStrings-100-batch-2,1.403186128161649,1% - 3%
+195,BenchmarkEncodeStrings-100-itr-2,2.8947845452273357,1% - 3%
+196,BenchmarkEncodeStrings-100-itr-2,2.110951346671641,1% - 3%
+197,BenchmarkEncodeStrings-1000-batch-2,4.708570714937355,3% - 5%
+198,BenchmarkEncodeStrings-1000-batch-2,10.71169592857485,> 10%
+199,BenchmarkEncodeStrings-1000-itr-2,3.3194766415106107,3% - 5%
+200,BenchmarkEncodeStrings-1000-itr-2,6.049645383329349,5% - 10%
+201,BenchmarkEngine_WritePoints-tsi1_10-2,389.6256650371636,> 10%
+202,BenchmarkEngine_WritePoints-tsi1_10-2,453.2452580523176,> 10%
+203,BenchmarkEngine_WritePoints-tsi1_100-2,284.97337344579506,> 10%
+204,BenchmarkEngine_WritePoints-tsi1_100-2,184.10123729490383,> 10%
+205,BenchmarkEngine_WritePoints-tsi1_1000-2,2.650622019014115,1% - 3%
+206,BenchmarkEngine_WritePoints-tsi1_1000-2,2.132539761293106,1% - 3%
+207,BenchmarkEngine_WritePoints-tsi1_10000-2,8.538264754186688,5% - 10%
+208,BenchmarkEngine_WritePoints-tsi1_10000-2,7.494488063467486,5% - 10%
+209,BenchmarkEngine_WritePoints-tsi1_5000-2,5.722025879384574,5% - 10%
+210,BenchmarkEngine_WritePoints-tsi1_5000-2,7.2629149473860455,5% - 10%
+211,BenchmarkEpochTracker-Writes_with_deletes-Parallel-0-2,2.358587131264067,1% - 3%
+212,BenchmarkEpochTracker-Writes_with_deletes-Parallel-0-2,1.9889619723748364,1% - 3%
+213,BenchmarkEpochTracker-Writes_with_deletes-Parallel-1-2,3.132349334141294,3% - 5%
+214,BenchmarkEpochTracker-Writes_with_deletes-Parallel-1-2,3.2773101665523274,3% - 5%
+215,BenchmarkEpochTracker-Writes_with_deletes-Parallel-10-2,3.279888378500761,3% - 5%
+216,BenchmarkEpochTracker-Writes_with_deletes-Parallel-10-2,3.4510172350326607,3% - 5%
+217,BenchmarkEpochTracker-Writes_with_deletes-Parallel-100-2,2.5815640579069155,1% - 3%
+218,BenchmarkEpochTracker-Writes_with_deletes-Parallel-100-2,3.8288310636417355,3% - 5%
+219,BenchmarkEpochTracker-Writes_with_deletes-Serial-0-2,1.2734395473451676,1% - 3%
+220,BenchmarkEpochTracker-Writes_with_deletes-Serial-0-2,0.8456258051078636,< 1%
+221,BenchmarkEpochTracker-Writes_with_deletes-Serial-1-2,1.0972825686722314,1% - 3%
+222,BenchmarkEpochTracker-Writes_with_deletes-Serial-1-2,3.2543591426873464,3% - 5%
+223,BenchmarkEpochTracker-Writes_with_deletes-Serial-10-2,2.0563376602598105,1% - 3%
+224,BenchmarkEpochTracker-Writes_with_deletes-Serial-10-2,3.0852412308561843,3% - 5%
+225,BenchmarkEpochTracker-Writes_with_deletes-Serial-100-2,1.7900099306938033,1% - 3%
+226,BenchmarkEpochTracker-Writes_with_deletes-Serial-100-2,2.590037143370182,1% - 3%
+227,"BenchmarkEscapeMeasurement-this,is,a,test-2",1.547661361237651,1% - 3%
+228,"BenchmarkEscapeMeasurement-this,is,a,test-2",1.2544697526328474,1% - 3%
+229,BenchmarkEscapeMeasurement-this_is_a_test-2,0.5186327299384841,< 1%
+230,BenchmarkEscapeMeasurement-this_is_a_test-2,0.5185006145512427,< 1%
+231,BenchmarkEscapeStringField_Plain-2,2.743827244427455,1% - 3%
+232,BenchmarkEscapeStringField_Plain-2,2.0461595482882067,1% - 3%
+233,BenchmarkEscapeString_Backslashes-2,2.602992534314885,1% - 3%
+234,BenchmarkEscapeString_Backslashes-2,2.797858359698236,1% - 3%
+235,BenchmarkEscapeString_Quotes-2,1.5227694276178871,1% - 3%
+236,BenchmarkEscapeString_Quotes-2,2.232727652388433,1% - 3%
+237,BenchmarkEscapeString_QuotesAndBackslashes-2,3.2098116567614743,3% - 5%
+238,BenchmarkEscapeString_QuotesAndBackslashes-2,1.7327028714713255,1% - 3%
+239,BenchmarkFloatArrayDecodeAll-1-2,0.3750769683212085,< 1%
+240,BenchmarkFloatArrayDecodeAll-1-2,0.3214571111490927,< 1%
+241,BenchmarkFloatArrayDecodeAll-1000-2,0.24201990053998038,< 1%
+242,BenchmarkFloatArrayDecodeAll-1000-2,0.31693810356037133,< 1%
+243,BenchmarkFloatArrayDecodeAll-55-2,0.5152987088471006,< 1%
+244,BenchmarkFloatArrayDecodeAll-55-2,0.3547557519303135,< 1%
+245,BenchmarkFloatArrayDecodeAll-550-2,0.5042027071319621,< 1%
+246,BenchmarkFloatArrayDecodeAll-550-2,0.4045854381319658,< 1%
+247,BenchmarkFloatDecoder-2,0.37516243367741176,< 1%
+248,BenchmarkFloatDecoder-2,0.42780527388962536,< 1%
+249,BenchmarkFloatDecoder_DecodeAll-1-2,0.3418753639930383,< 1%
+250,BenchmarkFloatDecoder_DecodeAll-1-2,0.756513169717099,< 1%
+251,BenchmarkFloatDecoder_DecodeAll-1000-2,0.40166658960487656,< 1%
+252,BenchmarkFloatDecoder_DecodeAll-1000-2,0.7922430983673511,< 1%
+253,BenchmarkFloatDecoder_DecodeAll-55-2,0.49038181160663274,< 1%
+254,BenchmarkFloatDecoder_DecodeAll-55-2,0.8859285941772654,< 1%
+255,BenchmarkFloatDecoder_DecodeAll-550-2,0.42376031826368843,< 1%
+256,BenchmarkFloatDecoder_DecodeAll-550-2,0.7855626017239881,< 1%
+257,BenchmarkFloatEncoder-2,1.1421776745677015,1% - 3%
+258,BenchmarkFloatEncoder-2,1.1184336977476894,1% - 3%
+259,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,5.223750764228297,5% - 10%
+260,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,5.900734282940268,5% - 10%
+261,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,2.2713910584866825,1% - 3%
+262,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,3.6084915931880572,3% - 5%
+263,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.45413485658420966,< 1%
+264,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.5021572068658386,< 1%
+265,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,0.695232342347607,< 1%
+266,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,0.6969659593377475,< 1%
+267,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,2.398401065956024,1% - 3%
+268,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,0.8707808636651104,< 1%
+269,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.4161119200444485,< 1%
+270,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.5007651061471607,< 1%
+271,BenchmarkIntegerArrayDecodeAllRLE-1000_delta_0-2,0.41181006526848085,< 1%
+272,BenchmarkIntegerArrayDecodeAllRLE-1000_delta_0-2,0.43594779919996496,< 1%
+273,BenchmarkIntegerArrayDecodeAllRLE-1000_delta_1-2,0.5461084245710901,< 1%
+274,BenchmarkIntegerArrayDecodeAllRLE-1000_delta_1-2,0.29781571004352525,< 1%
+275,BenchmarkIntegerArrayDecodeAllRLE-555_delta_1-2,0.3480728242307274,< 1%
+276,BenchmarkIntegerArrayDecodeAllRLE-555_delta_1-2,0.3504124595096636,< 1%
+277,BenchmarkIntegerArrayDecodeAllRLE-55_delta_1-2,0.4038020482757143,< 1%
+278,BenchmarkIntegerArrayDecodeAllRLE-55_delta_1-2,0.47540781691379763,< 1%
+279,BenchmarkIntegerArrayDecodeAllRLE-5_delta_1-2,0.40296634237206863,< 1%
+280,BenchmarkIntegerArrayDecodeAllRLE-5_delta_1-2,0.4044653920353913,< 1%
+281,BenchmarkIntegerArrayDecodeAllUncompressed-1000-2,0.31656779028552684,< 1%
+282,BenchmarkIntegerArrayDecodeAllUncompressed-1000-2,0.4917580390005006,< 1%
+283,BenchmarkIntegerArrayDecodeAllUncompressed-5-2,1.5203532329280958,1% - 3%
+284,BenchmarkIntegerArrayDecodeAllUncompressed-5-2,1.2828860357702365,1% - 3%
+285,BenchmarkIntegerArrayDecodeAllUncompressed-55-2,0.578772969173591,< 1%
+286,BenchmarkIntegerArrayDecodeAllUncompressed-55-2,0.5187973891828679,< 1%
+287,BenchmarkIntegerArrayDecodeAllUncompressed-555-2,0.3779131633531385,< 1%
+288,BenchmarkIntegerArrayDecodeAllUncompressed-555-2,0.44187991422729445,< 1%
+289,BenchmarkIntegerArray_ExcludeFirst_1000-2,0.41872782268405073,< 1%
+290,BenchmarkIntegerArray_ExcludeFirst_1000-2,0.40301193859391127,< 1%
+291,BenchmarkIntegerArray_ExcludeFirst_10000-2,0.46474644779626045,< 1%
+292,BenchmarkIntegerArray_ExcludeFirst_10000-2,0.5270537927456242,< 1%
+293,BenchmarkIntegerArray_ExcludeLast_1000-2,0.4037901971605029,< 1%
+294,BenchmarkIntegerArray_ExcludeLast_1000-2,0.3731778623006887,< 1%
+295,BenchmarkIntegerArray_ExcludeLast_10000-2,0.3259016812908188,< 1%
+296,BenchmarkIntegerArray_ExcludeLast_10000-2,0.3263480652035744,< 1%
+297,BenchmarkIntegerArray_ExcludeMiddleHalf_1000-2,0.5234936283134095,< 1%
+298,BenchmarkIntegerArray_ExcludeMiddleHalf_1000-2,0.4656749874713651,< 1%
+299,BenchmarkIntegerArray_ExcludeMiddleHalf_10000-2,1.2473763118440617,1% - 3%
+300,BenchmarkIntegerArray_ExcludeMiddleHalf_10000-2,0.7921956979054956,< 1%
+301,BenchmarkIntegerArray_ExcludeNone_1000-2,0.4341758412157004,< 1%
+302,BenchmarkIntegerArray_ExcludeNone_1000-2,0.3566084007807224,< 1%
+303,BenchmarkIntegerArray_ExcludeNone_10000-2,0.5889678454775726,< 1%
+304,BenchmarkIntegerArray_ExcludeNone_10000-2,0.6045584320150343,< 1%
+305,BenchmarkIntegerArray_IncludeFirst_1000-2,3.1741639709388143,3% - 5%
+306,BenchmarkIntegerArray_IncludeFirst_1000-2,2.9362463952032574,1% - 3%
+307,BenchmarkIntegerArray_IncludeFirst_10000-2,1.2549348070565403,1% - 3%
+308,BenchmarkIntegerArray_IncludeFirst_10000-2,1.3899057898638545,1% - 3%
+309,BenchmarkIntegerArray_IncludeLast_1000-2,3.4709787694994887,3% - 5%
+310,BenchmarkIntegerArray_IncludeLast_1000-2,3.4656404828521725,3% - 5%
+311,BenchmarkIntegerArray_IncludeLast_10000-2,0.9874243620099921,< 1%
+312,BenchmarkIntegerArray_IncludeLast_10000-2,1.8768914936938774,1% - 3%
+313,BenchmarkIntegerArray_IncludeMiddleHalf_1000-2,0.8445862545670035,< 1%
+314,BenchmarkIntegerArray_IncludeMiddleHalf_1000-2,1.3622250399691227,1% - 3%
+315,BenchmarkIntegerArray_IncludeMiddleHalf_10000-2,0.8348420814069168,< 1%
+316,BenchmarkIntegerArray_IncludeMiddleHalf_10000-2,1.475617316614497,1% - 3%
+317,BenchmarkIntegerArray_IncludeNone_1000-2,5.790437137481296,5% - 10%
+318,BenchmarkIntegerArray_IncludeNone_1000-2,6.1410105374620105,5% - 10%
+319,BenchmarkIntegerArray_IncludeNone_10000-2,0.8514993659700432,< 1%
+320,BenchmarkIntegerArray_IncludeNone_10000-2,1.7135297746097344,1% - 3%
+321,BenchmarkIntegerBatch_DecodeAllPackedSimple-1000-2,1.1430749625192527,1% - 3%
+322,BenchmarkIntegerBatch_DecodeAllPackedSimple-1000-2,1.859189988828702,1% - 3%
+323,BenchmarkIntegerBatch_DecodeAllPackedSimple-5-2,3.46521091283124,3% - 5%
+324,BenchmarkIntegerBatch_DecodeAllPackedSimple-5-2,5.834364595565144,5% - 10%
+325,BenchmarkIntegerBatch_DecodeAllPackedSimple-55-2,2.6293203654695674,1% - 3%
+326,BenchmarkIntegerBatch_DecodeAllPackedSimple-55-2,5.560078692493953,5% - 10%
+327,BenchmarkIntegerBatch_DecodeAllPackedSimple-555-2,1.7044973807405215,1% - 3%
+328,BenchmarkIntegerBatch_DecodeAllPackedSimple-555-2,1.8979604340429668,1% - 3%
+329,BenchmarkIntegerBatch_DecodeAllRLE-1000_delta_0-2,1.4687284452627463,1% - 3%
+330,BenchmarkIntegerBatch_DecodeAllRLE-1000_delta_0-2,1.3484236829221175,1% - 3%
+331,BenchmarkIntegerBatch_DecodeAllRLE-1000_delta_1-2,1.9429258153847884,1% - 3%
+332,BenchmarkIntegerBatch_DecodeAllRLE-1000_delta_1-2,1.500052391725204,1% - 3%
+333,BenchmarkIntegerBatch_DecodeAllRLE-555_delta_1-2,1.7521842085341577,1% - 3%
+334,BenchmarkIntegerBatch_DecodeAllRLE-555_delta_1-2,2.150864605197289,1% - 3%
+335,BenchmarkIntegerBatch_DecodeAllRLE-55_delta_1-2,4.335844001844569,3% - 5%
+336,BenchmarkIntegerBatch_DecodeAllRLE-55_delta_1-2,5.659918159918165,5% - 10%
+337,BenchmarkIntegerBatch_DecodeAllRLE-5_delta_1-2,5.992921765606019,5% - 10%
+338,BenchmarkIntegerBatch_DecodeAllRLE-5_delta_1-2,8.299171645475145,5% - 10%
+339,BenchmarkIntegerBatch_DecodeAllUncompressed-1000-2,1.316359279673629,1% - 3%
+340,BenchmarkIntegerBatch_DecodeAllUncompressed-1000-2,1.5412625214823117,1% - 3%
+341,BenchmarkIntegerBatch_DecodeAllUncompressed-5-2,4.126875792146989,3% - 5%
+342,BenchmarkIntegerBatch_DecodeAllUncompressed-5-2,5.8974937032133194,5% - 10%
+343,BenchmarkIntegerBatch_DecodeAllUncompressed-55-2,2.6602228269419825,1% - 3%
+344,BenchmarkIntegerBatch_DecodeAllUncompressed-55-2,2.0838303876190456,1% - 3%
+345,BenchmarkIntegerBatch_DecodeAllUncompressed-555-2,1.4064263717080805,1% - 3%
+346,BenchmarkIntegerBatch_DecodeAllUncompressed-555-2,1.8321813342685902,1% - 3%
+347,BenchmarkIntegerEncoderPackedSimple-2,1.4181344724387146,1% - 3%
+348,BenchmarkIntegerEncoderPackedSimple-2,1.8049386365511455,1% - 3%
+349,BenchmarkIntegerEncoderRLE-2,1.556657579309706,1% - 3%
+350,BenchmarkIntegerEncoderRLE-2,3.8632287717866425,3% - 5%
+351,BenchmarkIntegerIterator_Next-2,0.39878741939745055,< 1%
+352,BenchmarkIntegerValues_ExcludeFirst_1000-2,0.9753343188634744,< 1%
+353,BenchmarkIntegerValues_ExcludeFirst_1000-2,0.8997382368165163,< 1%
+354,BenchmarkIntegerValues_ExcludeFirst_10000-2,0.9256623842476164,< 1%
+355,BenchmarkIntegerValues_ExcludeFirst_10000-2,0.997331530165646,< 1%
+356,BenchmarkIntegerValues_ExcludeLast_1000-2,0.40359212655978194,< 1%
+357,BenchmarkIntegerValues_ExcludeLast_1000-2,0.5663540278116201,< 1%
+358,BenchmarkIntegerValues_ExcludeLast_10000-2,0.48445486963244466,< 1%
+359,BenchmarkIntegerValues_ExcludeLast_10000-2,0.278877954769452,< 1%
+360,BenchmarkIntegerValues_ExcludeMiddleHalf_1000-2,2.365509505630714,1% - 3%
+361,BenchmarkIntegerValues_ExcludeMiddleHalf_1000-2,1.681614349775773,1% - 3%
+362,BenchmarkIntegerValues_ExcludeMiddleHalf_10000-2,1.3714891082019287,1% - 3%
+363,BenchmarkIntegerValues_ExcludeMiddleHalf_10000-2,2.383857771910469,1% - 3%
+364,BenchmarkIntegerValues_ExcludeNone_1000-2,0.6560057639313,< 1%
+365,BenchmarkIntegerValues_ExcludeNone_1000-2,0.6626079334080881,< 1%
+366,BenchmarkIntegerValues_ExcludeNone_10000-2,1.4337914227157134,1% - 3%
+367,BenchmarkIntegerValues_ExcludeNone_10000-2,1.2715807016932201,1% - 3%
+368,BenchmarkIntegerValues_IncludeFirst_1000-2,7.590008186889551,5% - 10%
+369,BenchmarkIntegerValues_IncludeFirst_1000-2,9.01438475930404,5% - 10%
+370,BenchmarkIntegerValues_IncludeFirst_10000-2,1.0078861602019873,1% - 3%
+371,BenchmarkIntegerValues_IncludeFirst_10000-2,1.9938328406789663,1% - 3%
+372,BenchmarkIntegerValues_IncludeLast_1000-2,8.152925718594105,5% - 10%
+373,BenchmarkIntegerValues_IncludeLast_1000-2,8.172005599203835,5% - 10%
+374,BenchmarkIntegerValues_IncludeLast_10000-2,0.8773925735183985,< 1%
+375,BenchmarkIntegerValues_IncludeLast_10000-2,1.8538385167350513,1% - 3%
+376,BenchmarkIntegerValues_IncludeMiddleHalf_1000-2,0.8179422805990153,< 1%
+377,BenchmarkIntegerValues_IncludeMiddleHalf_1000-2,0.7746444056649038,< 1%
+378,BenchmarkIntegerValues_IncludeMiddleHalf_10000-2,0.7334370348068942,< 1%
+379,BenchmarkIntegerValues_IncludeMiddleHalf_10000-2,1.4390977217544343,1% - 3%
+380,BenchmarkIntegerValues_IncludeNone_1000-2,11.72780068417426,> 10%
+381,BenchmarkIntegerValues_IncludeNone_1000-2,8.634528458271738,5% - 10%
+382,BenchmarkIntegerValues_IncludeNone_10000-2,0.7877689919292719,< 1%
+383,BenchmarkIntegerValues_IncludeNone_10000-2,1.6626147973530236,1% - 3%
+384,BenchmarkIsEscaped-2,0.3731509281567069,< 1%
+385,BenchmarkIsEscaped-2,0.6876676213451449,< 1%
+386,BenchmarkKAMA-2,0.6559545354017482,< 1%
+387,BenchmarkKAMA-2,0.9784409153005602,< 1%
+388,BenchmarkKeyMerger_MergeKeys-10-2,1.8064425221910099,1% - 3%
+389,BenchmarkKeyMerger_MergeKeys-10-2,1.581035005538256,1% - 3%
+390,BenchmarkKeyMerger_MergeKeys-1000-2,1.2687901208073615,1% - 3%
+391,BenchmarkKeyMerger_MergeKeys-1000-2,1.031834693896827,1% - 3%
+392,BenchmarkKeyMerger_MergeKeys-1000000-2,1.1417471492830567,1% - 3%
+393,BenchmarkKeyMerger_MergeKeys-1000000-2,1.2009954122393807,1% - 3%
+394,BenchmarkKeyMerger_MergeTagKeys-10-2,1.0474545706678162,1% - 3%
+395,BenchmarkKeyMerger_MergeTagKeys-10-2,1.1875138611665559,1% - 3%
+396,BenchmarkKeyMerger_MergeTagKeys-1000-2,0.9958620573493725,< 1%
+397,BenchmarkKeyMerger_MergeTagKeys-1000-2,1.1829891555443783,1% - 3%
+398,BenchmarkKeyMerger_MergeTagKeys-1000000-2,1.1805785423756767,1% - 3%
+399,BenchmarkKeyMerger_MergeTagKeys-1000000-2,1.1336034323568556,1% - 3%
+400,BenchmarkKVStore_Bucket_Cursor-16000_keys-without_hint-2,2.066318202398887,1% - 3%
+401,BenchmarkKVStore_Bucket_Cursor-16000_keys-without_hint-2,2.9094514709261725,1% - 3%
+402,BenchmarkKVStore_Bucket_Cursor-16000_keys-with_hint-2,2.202642491911344,1% - 3%
+403,BenchmarkKVStore_Bucket_Cursor-16000_keys-with_hint-2,1.9702739490400578,1% - 3%
+404,BenchmarkLocal_StartSpanFromContext-2,1.4597453285975392,1% - 3%
+405,BenchmarkLocal_StartSpanFromContext-2,1.8644130230012657,1% - 3%
+406,BenchmarkLocal_StartSpanFromContext_runtimeCaller-2,1.8055159684708166,1% - 3%
+407,BenchmarkLocal_StartSpanFromContext_runtimeCaller-2,2.414064591250342,1% - 3%
+408,BenchmarkLocal_StartSpanFromContext_runtimeCallers-2,0.6267150744040939,< 1%
+409,BenchmarkLocal_StartSpanFromContext_runtimeCallers-2,1.7356246068471193,1% - 3%
+410,BenchmarkLocal_StartSpanFromContext_runtimeCallersFrames-2,2.007078366859205,1% - 3%
+411,BenchmarkLocal_StartSpanFromContext_runtimeCallersFrames-2,3.4624555092088727,3% - 5%
+412,BenchmarkLocal_StartSpanFromContext_runtimeFuncFileLine-2,2.8919189247907484,1% - 3%
+413,BenchmarkLocal_StartSpanFromContext_runtimeFuncFileLine-2,2.8776486671223345,1% - 3%
+414,BenchmarkLocal_StartSpanFromContext_runtimeFuncForPC-2,0.8509025606314724,< 1%
+415,BenchmarkLocal_StartSpanFromContext_runtimeFuncForPC-2,3.0847720374533205,3% - 5%
+416,BenchmarkLogFile_AddSeries_1000_1_1-2,355.19920796956467,> 10%
+417,BenchmarkLogFile_AddSeries_1000_1_1-2,417.73806837964196,> 10%
+418,BenchmarkLogFile_AddSeries_100_1_1-2,7.2541791771158275,5% - 10%
+419,BenchmarkLogFile_AddSeries_100_1_1-2,7.286341542972941,5% - 10%
+420,"BenchmarkMakeKey-this,is,a,test#01-2",1.5071128086043495,1% - 3%
+421,"BenchmarkMakeKey-this,is,a,test#01-2",2.0516829303380724,1% - 3%
+422,"BenchmarkMakeKey-this,is,a,test#02-2",1.32943969560122,1% - 3%
+423,"BenchmarkMakeKey-this,is,a,test#02-2",1.5837420669880253,1% - 3%
+424,"BenchmarkMakeKey-this,is,a,test-2",1.4458848123197754,1% - 3%
+425,"BenchmarkMakeKey-this,is,a,test-2",1.7890881810015413,1% - 3%
+426,BenchmarkMakeKey-this-_is-_a-_test-2,0.9962080186080913,< 1%
+427,BenchmarkMakeKey-this-_is-_a-_test-2,1.5369663249452326,1% - 3%
+428,BenchmarkMakeKey-this_is_a_test#01-2,1.2717332826581718,1% - 3%
+429,BenchmarkMakeKey-this_is_a_test#01-2,2.072222686830883,1% - 3%
+430,BenchmarkMakeKey-this_is_a_test#02-2,1.2583271650629224,1% - 3%
+431,BenchmarkMakeKey-this_is_a_test#02-2,2.117101466789517,1% - 3%
+432,BenchmarkMakeKey-this_is_a_test-2,1.8926422147452326,1% - 3%
+433,BenchmarkMakeKey-this_is_a_test-2,2.27118256966713,1% - 3%
+434,BenchmarkMakeTagsKey_KeyN1-2,2.1941421894734026,1% - 3%
+435,BenchmarkMakeTagsKey_KeyN1-2,2.7290009207683976,1% - 3%
+436,BenchmarkMakeTagsKey_KeyN10-2,1.8530549378694359,1% - 3%
+437,BenchmarkMakeTagsKey_KeyN10-2,2.3918026253566205,1% - 3%
+438,BenchmarkMakeTagsKey_KeyN3-2,2.786749687602641,1% - 3%
+439,BenchmarkMakeTagsKey_KeyN3-2,2.2546575767586674,1% - 3%
+440,BenchmarkMakeTagsKey_KeyN5-2,2.130165307517018,1% - 3%
+441,BenchmarkMakeTagsKey_KeyN5-2,2.7639282289051104,1% - 3%
+442,BenchmarkManyStringEscape-2,1.7403568065413433,1% - 3%
+443,BenchmarkManyStringEscape-2,1.9869374895084002,1% - 3%
+444,BenchmarkManyStringUnescape-2,1.1470264673526076,1% - 3%
+445,BenchmarkManyStringUnescape-2,1.4019002059663777,1% - 3%
+446,BenchmarkMarshal-2,1.9345418716398055,1% - 3%
+447,BenchmarkMarshal-2,1.9420755511406873,1% - 3%
+448,BenchmarkMarshalTags_KeyN1-2,1.7177787980926285,1% - 3%
+449,BenchmarkMarshalTags_KeyN1-2,1.5973326103098096,1% - 3%
+450,BenchmarkMarshalTags_KeyN10-2,2.3985976416426524,1% - 3%
+451,BenchmarkMarshalTags_KeyN10-2,3.0633710508984557,3% - 5%
+452,BenchmarkMarshalTags_KeyN3-2,1.7150236711153344,1% - 3%
+453,BenchmarkMarshalTags_KeyN3-2,2.033811738296987,1% - 3%
+454,BenchmarkMarshalTags_KeyN5-2,1.9909786928838047,1% - 3%
+455,BenchmarkMarshalTags_KeyN5-2,3.500509697611864,3% - 5%
+456,BenchmarkModeIterator_100K-2,3.993672312784813,3% - 5%
+457,BenchmarkModeIterator_100K-2,6.144262690573609,5% - 10%
+458,BenchmarkModeIterator_1K-2,3.14024586539764,3% - 5%
+459,BenchmarkModeIterator_1K-2,3.222312127704541,3% - 5%
+460,BenchmarkModeIterator_1M-2,7.979754849727648,5% - 10%
+461,BenchmarkModeIterator_1M-2,8.032061870341355,5% - 10%
+462,BenchmarkNewGroupResultSet_GroupBy-2,2.999204154649415,1% - 3%
+463,BenchmarkNewGroupResultSet_GroupBy-2,2.819992799882476,1% - 3%
+464,BenchmarkNewPoint-2,1.3065430134112987,1% - 3%
+465,BenchmarkNewPoint-2,2.098468731121783,1% - 3%
+466,BenchmarkNewPointFromBinary-2,1.596097581763145,1% - 3%
+467,BenchmarkNewPointFromBinary-2,1.9117351317606057,1% - 3%
+468,BenchmarkNewTagsKeyValues-sorted-dupes-2,2.3996972941438433,1% - 3%
+469,BenchmarkNewTagsKeyValues-sorted-dupes-2,2.494802494802484,1% - 3%
+470,BenchmarkNewTagsKeyValues-sorted-no_dupes-allocate-2,1.9633446263881085,1% - 3%
+471,BenchmarkNewTagsKeyValues-sorted-no_dupes-allocate-2,2.912158188132219,1% - 3%
+472,BenchmarkNewTagsKeyValues-sorted-no_dupes-preallocate-2,0.3951361171817158,< 1%
+473,BenchmarkNewTagsKeyValues-sorted-no_dupes-preallocate-2,0.8164340268633219,< 1%
+474,BenchmarkNewTagsKeyValues-unsorted-dupes-2,2.3300454887944855,1% - 3%
+475,BenchmarkNewTagsKeyValues-unsorted-dupes-2,2.60633547835406,1% - 3%
+476,BenchmarkNewTagsKeyValues-unsorted-no_dupes-2,1.664476292227024,1% - 3%
+477,BenchmarkNewTagsKeyValues-unsorted-no_dupes-2,1.636741269114561,1% - 3%
+478,BenchmarkNext-2,0.44801729311885197,< 1%
+479,BenchmarkNext-2,0.6377332118102763,< 1%
+480,BenchmarkNextParallel-2,0.9010118904667297,< 1%
+481,BenchmarkNextParallel-2,1.309541977672346,1% - 3%
+482,BenchmarkOpentracing_ExtractFromHTTPRequest-2,1.8150352209931442,1% - 3%
+483,BenchmarkOpentracing_ExtractFromHTTPRequest-2,1.9189383184725517,1% - 3%
+484,BenchmarkOpentracing_StartSpanFromContext-2,2.0868731007465002,1% - 3%
+485,BenchmarkOpentracing_StartSpanFromContext-2,2.007965555882507,1% - 3%
+486,BenchmarkOpentracing_StartSpan_child-2,2.4195291880841125,1% - 3%
+487,BenchmarkOpentracing_StartSpan_child-2,2.6232741617357003,1% - 3%
+488,BenchmarkOpentracing_StartSpan_root-2,0.4238271885330547,< 1%
+489,BenchmarkOpentracing_StartSpan_root-2,0.4776930280597558,< 1%
+490,BenchmarkParseKey-2,2.082531686897282,1% - 3%
+491,BenchmarkParseKey-2,2.953695928663214,1% - 3%
+492,BenchmarkParsePointNoTags-2,1.9223387326045338,1% - 3%
+493,BenchmarkParsePointNoTags-2,2.414361354599981,1% - 3%
+494,BenchmarkParsePointNoTags5000-2,1.950472308483897,1% - 3%
+495,BenchmarkParsePointNoTags5000-2,2.3407666118428927,1% - 3%
+496,BenchmarkParsePointsTagsSorted10-2,1.5561815307697957,1% - 3%
+497,BenchmarkParsePointsTagsSorted10-2,1.5568560185652336,1% - 3%
+498,BenchmarkParsePointsTagsSorted2-2,1.340539612621394,1% - 3%
+499,BenchmarkParsePointsTagsSorted2-2,2.2665317454887313,1% - 3%
+500,BenchmarkParsePointsTagsSorted5-2,1.624840123003235,1% - 3%
+501,BenchmarkParsePointsTagsSorted5-2,1.3969010417511973,1% - 3%
+502,BenchmarkParsePointsTagsUnSorted10-2,1.2983925391030549,1% - 3%
+503,BenchmarkParsePointsTagsUnSorted10-2,1.592980906881969,1% - 3%
+504,BenchmarkParsePointsTagsUnSorted2-2,1.6937451878531684,1% - 3%
+505,BenchmarkParsePointsTagsUnSorted2-2,2.02464604638517,1% - 3%
+506,BenchmarkParsePointsTagsUnSorted5-2,1.4074446977184074,1% - 3%
+507,BenchmarkParsePointsTagsUnSorted5-2,1.5838940078256702,1% - 3%
+508,BenchmarkParsePointWithPrecisionN-2,1.5903595606740817,1% - 3%
+509,BenchmarkParsePointWithPrecisionN-2,2.272908241905125,1% - 3%
+510,BenchmarkParsePointWithPrecisionU-2,1.7336208044004042,1% - 3%
+511,BenchmarkParsePointWithPrecisionU-2,2.913938018872808,1% - 3%
+512,BenchmarkParseTags-2,2.252882600771744,1% - 3%
+513,BenchmarkParseTags-2,1.850830381580948,1% - 3%
+514,BenchmarkPlus_Add_100-2,0.4296455424274926,< 1%
+515,BenchmarkPlus_Add_100-2,0.5723489119926484,< 1%
+516,BenchmarkPlus_Add_1000-2,0.6686154750165872,< 1%
+517,BenchmarkPlus_Add_1000-2,0.6906149237789316,< 1%
+518,BenchmarkPlus_Add_10000-2,0.6945844017382075,< 1%
+519,BenchmarkPlus_Add_10000-2,0.6141028811844307,< 1%
+520,BenchmarkPlus_Add_100000-2,0.8332079822069072,< 1%
+521,BenchmarkPlus_Add_100000-2,0.6881996228905063,< 1%
+522,BenchmarkPlus_Add_1000000-2,0.5568604931855625,< 1%
+523,BenchmarkPlus_Add_1000000-2,1.0069864711555132,1% - 3%
+524,BenchmarkPlus_Add_10000000-2,0.6516287777535212,< 1%
+525,BenchmarkPlus_Add_10000000-2,0.7315762199163744,< 1%
+526,BenchmarkPlus_Add_100000000-2,0.3961340176254491,< 1%
+527,BenchmarkPlus_Add_100000000-2,0.5910527662393639,< 1%
+528,BenchmarkPredicate-Basic-2,0.7547594379422318,< 1%
+529,BenchmarkPredicate-Basic-2,0.6429804459361255,< 1%
+530,BenchmarkPredicate-Compound-2,0.7873669945793971,< 1%
+531,BenchmarkPredicate-Compound-2,1.384855440721422,1% - 3%
+532,BenchmarkRing_write_1_100-2,1.5303851469703478,1% - 3%
+533,BenchmarkRing_write_1_1000-2,1.053282681362655,1% - 3%
+534,BenchmarkRing_write_1_10000-2,2.062587958405604,1% - 3%
+535,BenchmarkRing_write_1_100000-2,1.613428413931184,1% - 3%
+536,BenchmarkRing_write_4_100-2,3.283580548767018,3% - 5%
+537,BenchmarkRing_write_4_1000-2,1.4087560317825878,1% - 3%
+538,BenchmarkRing_write_4_10000-2,1.825626212462883,1% - 3%
+539,BenchmarkRing_write_4_100000-2,2.2675161488015183,1% - 3%
+540,BenchmarkSampleIterator_100k-2,2.4502925384634056,1% - 3%
+541,BenchmarkSampleIterator_100k-2,3.1850056330394616,3% - 5%
+542,BenchmarkSampleIterator_1k-2,2.381155231130694,1% - 3%
+543,BenchmarkSampleIterator_1k-2,4.348913790782272,3% - 5%
+544,BenchmarkSampleIterator_1M-2,2.1366319749295144,1% - 3%
+545,BenchmarkSampleIterator_1M-2,2.858972018440875,1% - 3%
+546,BenchmarkSearchBytes_Exists-2,0.542205236037141,< 1%
+547,BenchmarkSearchBytes_Exists-2,0.6264238933561539,< 1%
+548,BenchmarkSearchBytes_NotExits-2,0.5910632191377663,< 1%
+549,BenchmarkSearchBytes_NotExits-2,0.615924323372441,< 1%
+550,BenchmarkSelect_Dedupe_1K-2,1.3650361675017655,1% - 3%
+551,BenchmarkSelect_Dedupe_1K-2,1.6528803226059208,1% - 3%
+552,BenchmarkSelect_Raw_100K-2,2.5596296452873424,1% - 3%
+553,BenchmarkSelect_Raw_100K-2,4.253460804358199,3% - 5%
+554,BenchmarkSelect_Raw_1K-2,1.2262776197527137,1% - 3%
+555,BenchmarkSelect_Raw_1K-2,1.7902026703208396,1% - 3%
+556,BenchmarkSeriesFile_Compaction-2,3.2140067611557854,3% - 5%
+557,BenchmarkSeriesFile_Compaction-2,4.839708901896223,3% - 5%
+558,BenchmarkSeriesIDSet_Contains-1-2,0.593946240540999,< 1%
+559,BenchmarkSeriesIDSet_Contains-1-2,0.37602837505701364,< 1%
+560,BenchmarkSeriesIDSet_Contains-10-2,0.32129623943171204,< 1%
+561,BenchmarkSeriesIDSet_Contains-10-2,0.4669662736732305,< 1%
+562,BenchmarkSeriesIDSet_Contains-100-2,0.3393187048416624,< 1%
+563,BenchmarkSeriesIDSet_Contains-100-2,0.592505528218823,< 1%
+564,BenchmarkSeriesIDSet_Contains-1000-2,0.30961789902493875,< 1%
+565,BenchmarkSeriesIDSet_Contains-1000-2,0.5422887573888868,< 1%
+566,BenchmarkSeriesIDSet_Contains-10000-2,0.4969535063069186,< 1%
+567,BenchmarkSeriesIDSet_Contains-10000-2,0.564949669264625,< 1%
+568,BenchmarkSeriesIDSet_Contains-100000-2,0.34334772376265477,< 1%
+569,BenchmarkSeriesIDSet_Contains-100000-2,0.8008499135825353,< 1%
+570,BenchmarkSeriesIDSet_Contains-1000000-2,0.40504422403977447,< 1%
+571,BenchmarkSeriesIDSet_Contains-1000000-2,0.4300851492569424,< 1%
+572,BenchmarkSeriesIDSet_Contains-10000000-2,0.6141536863577768,< 1%
+573,BenchmarkSeriesIDSet_Contains-10000000-2,0.6717518430979008,< 1%
+574,BenchmarkSeriesIDSet_Contains-2-2,0.4948965230268221,< 1%
+575,BenchmarkSeriesIDSet_Contains-2-2,0.4335132723554236,< 1%
+576,BenchmarkSeriesIDSet_Remove-cardinality_1000000_check_remove_global_lock-2,0.49766940120451464,< 1%
+577,BenchmarkSeriesIDSet_Remove-cardinality_1000000_check_remove_global_lock-2,0.4289382508538053,< 1%
+578,BenchmarkSeriesIDSet_Remove-cardinality_1000000_check_remove_multi_lock-2,0.35366329140491537,< 1%
+579,BenchmarkSeriesIDSet_Remove-cardinality_1000000_check_remove_multi_lock-2,0.3288387369998369,< 1%
+580,BenchmarkSeriesIDSet_Remove-cardinality_1000000_remove_same-2,0.5120189438953648,< 1%
+581,BenchmarkSeriesIDSet_Remove-cardinality_1000000_remove_same-2,0.49619246530732136,< 1%
+582,BenchmarkSortedMergeIterator_Fast-2,1.584684902110467,1% - 3%
+583,BenchmarkSortedMergeIterator_Fast-2,2.4258944147033774,1% - 3%
+584,BenchmarkSortedMergeIterator_FastCheckOverhead-2,1.2523078541858634,1% - 3%
+585,BenchmarkSortedMergeIterator_FastCheckOverhead-2,1.8106690912285561,1% - 3%
+586,BenchmarkSortedMergeIterator_NotFast-2,2.3698888479264713,1% - 3%
+587,BenchmarkSortedMergeIterator_NotFast-2,2.095337760496496,1% - 3%
+588,BenchmarkSort_128-2,3.635859945141584,3% - 5%
+589,BenchmarkSort_128-2,4.441096364034058,3% - 5%
+590,BenchmarkSort_12K-2,1.4176570690033974,1% - 3%
+591,BenchmarkSort_12K-2,1.4002680517782418,1% - 3%
+592,BenchmarkSort_256-2,1.3062571538618117,1% - 3%
+593,BenchmarkSort_256-2,1.3129711333108807,1% - 3%
+594,BenchmarkSort_64-2,3.098326631210269,3% - 5%
+595,BenchmarkSort_64-2,3.097264307630465,3% - 5%
+596,BenchmarkStore_SeriesCardinality_100_Shards-tsi1-2,1.38143206550434,1% - 3%
+597,BenchmarkStore_SeriesCardinality_100_Shards-tsi1-2,1.8074479783021902,1% - 3%
+598,BenchmarkStringArrayDecodeAll-1-2,2.8598976552618782,1% - 3%
+599,BenchmarkStringArrayDecodeAll-1-2,2.9382405246822563,1% - 3%
+600,BenchmarkStringArrayDecodeAll-1000-2,1.690562830320474,1% - 3%
+601,BenchmarkStringArrayDecodeAll-1000-2,2.098563014493082,1% - 3%
+602,BenchmarkStringArrayDecodeAll-55-2,2.3105038629097185,1% - 3%
+603,BenchmarkStringArrayDecodeAll-55-2,2.331861925605816,1% - 3%
+604,BenchmarkStringArrayDecodeAll-550-2,1.9725674943727567,1% - 3%
+605,BenchmarkStringArrayDecodeAll-550-2,2.096784264365792,1% - 3%
+606,BenchmarkStringDecoder_DecodeAll-1-2,2.894211576846317,1% - 3%
+607,BenchmarkStringDecoder_DecodeAll-1-2,3.1201189296333083,3% - 5%
+608,BenchmarkStringDecoder_DecodeAll-1000-2,2.260944445571067,1% - 3%
+609,BenchmarkStringDecoder_DecodeAll-1000-2,2.064260364233317,1% - 3%
+610,BenchmarkStringDecoder_DecodeAll-55-2,2.3975480888276834,1% - 3%
+611,BenchmarkStringDecoder_DecodeAll-55-2,4.275078653200115,3% - 5%
+612,BenchmarkStringDecoder_DecodeAll-550-2,2.049453522875311,1% - 3%
+613,BenchmarkStringDecoder_DecodeAll-550-2,2.335694212551254,1% - 3%
+614,BenchmarkStringEscapeNoEscapes-2,0.3336520054772252,< 1%
+615,BenchmarkStringEscapeNoEscapes-2,0.4296631788653138,< 1%
+616,BenchmarkStringUnescapeNoEscapes-2,0.4648214207642498,< 1%
+617,BenchmarkStringUnescapeNoEscapes-2,0.8178651093008638,< 1%
+618,BenchmarkTagKeysSet_IsSuperset-all-true-2,0.38844211949261576,< 1%
+619,BenchmarkTagKeysSet_IsSuperset-all-true-2,0.44429029473423975,< 1%
+620,BenchmarkTagKeysSet_IsSuperset-all_but_last-false-2,0.2773386627157981,< 1%
+621,BenchmarkTagKeysSet_IsSuperset-all_but_last-false-2,0.5285118219749529,< 1%
+622,BenchmarkTagKeysSet_IsSuperset-first_last-true-2,0.4666714864083099,< 1%
+623,BenchmarkTagKeysSet_IsSuperset-first_last-true-2,0.549888655442976,< 1%
+624,BenchmarkTagKeysSet_IsSuperset-first_not_last-false-2,0.525160787770218,< 1%
+625,BenchmarkTagKeysSet_IsSuperset-first_not_last-false-2,0.5821935912985188,< 1%
+626,BenchmarkTagKeysSet_IsSuperset-last-false-2,0.685655340827751,< 1%
+627,BenchmarkTagKeysSet_IsSuperset-last-false-2,0.6324956267054649,< 1%
+628,BenchmarkTagKeysSet_IsSuperset-last-true-2,0.5739348962151447,< 1%
+629,BenchmarkTagKeysSet_IsSuperset-last-true-2,0.46392241644235277,< 1%
+630,BenchmarkTagKeysSet_UnionBytes-10-2,0.5622489959839382,< 1%
+631,BenchmarkTagKeysSet_UnionBytes-10-2,0.562120794085863,< 1%
+632,BenchmarkTagKeysSet_UnionBytes-1000-2,0.4136681028018785,< 1%
+633,BenchmarkTagKeysSet_UnionBytes-1000-2,0.46340024998772217,< 1%
+634,BenchmarkTagKeysSet_UnionBytes-1000000-2,0.4315030576278134,< 1%
+635,BenchmarkTagKeysSet_UnionBytes-1000000-2,0.4960213894947718,< 1%
+636,BenchmarkTagKeysSet_UnionKeys-10-2,0.5422513354133685,< 1%
+637,BenchmarkTagKeysSet_UnionKeys-10-2,1.0770528227833753,1% - 3%
+638,BenchmarkTagKeysSet_UnionKeys-1000-2,0.4305489396825069,< 1%
+639,BenchmarkTagKeysSet_UnionKeys-1000-2,0.4995663065054834,< 1%
+640,BenchmarkTagKeysSet_UnionKeys-1000000-2,0.48537585884811385,< 1%
+641,BenchmarkTagKeysSet_UnionKeys-1000000-2,0.6271321350743819,< 1%
+642,BenchmarkTags_HashKey-25_tags-esc-2,1.5722711183150828,1% - 3%
+643,BenchmarkTags_HashKey-25_tags-esc-2,1.7451348981130765,1% - 3%
+644,BenchmarkTags_HashKey-25_tags-no_esc-2,1.5060339039816075,1% - 3%
+645,BenchmarkTags_HashKey-25_tags-no_esc-2,1.5846183275945223,1% - 3%
+646,BenchmarkTags_HashKey-5_tags-esc-2,1.5992692944834075,1% - 3%
+647,BenchmarkTags_HashKey-5_tags-esc-2,1.0996911469258186,1% - 3%
+648,BenchmarkTags_HashKey-5_tags-no_esc-2,1.2765436163619581,1% - 3%
+649,BenchmarkTags_HashKey-5_tags-no_esc-2,1.4643113771060423,1% - 3%
+650,BenchmarkTimeArrayDecodeAllPackedSimple-1000-2,0.9415978471686404,< 1%
+651,BenchmarkTimeArrayDecodeAllPackedSimple-1000-2,0.6090896620691844,< 1%
+652,BenchmarkTimeArrayDecodeAllPackedSimple-5-2,1.201793650627192,1% - 3%
+653,BenchmarkTimeArrayDecodeAllPackedSimple-5-2,0.7232569888314777,< 1%
+654,BenchmarkTimeArrayDecodeAllPackedSimple-55-2,1.6990380278828265,1% - 3%
+655,BenchmarkTimeArrayDecodeAllPackedSimple-55-2,1.1930726230253486,1% - 3%
+656,BenchmarkTimeArrayDecodeAllPackedSimple-555-2,0.4184100418409997,< 1%
+657,BenchmarkTimeArrayDecodeAllPackedSimple-555-2,0.6637541484634247,< 1%
+658,BenchmarkTimeArrayDecodeAllRLE-1000_delta_10-2,1.6865809259067557,1% - 3%
+659,BenchmarkTimeArrayDecodeAllRLE-1000_delta_10-2,2.022496968417209,1% - 3%
+660,BenchmarkTimeArrayDecodeAllRLE-555_delta_10-2,2.1240768830445345,1% - 3%
+661,BenchmarkTimeArrayDecodeAllRLE-555_delta_10-2,1.1923514631150713,1% - 3%
+662,BenchmarkTimeArrayDecodeAllRLE-55_delta_10-2,3.0763786165727285,3% - 5%
+663,BenchmarkTimeArrayDecodeAllRLE-55_delta_10-2,3.418029071400374,3% - 5%
+664,BenchmarkTimeArrayDecodeAllRLE-5_delta_10-2,1.150299665932708,1% - 3%
+665,BenchmarkTimeArrayDecodeAllRLE-5_delta_10-2,0.9387578205415359,< 1%
+666,BenchmarkTimeArrayDecodeAllUncompressed-1000-2,0.5734775210971654,< 1%
+667,BenchmarkTimeArrayDecodeAllUncompressed-1000-2,0.38259232397821474,< 1%
+668,BenchmarkTimeArrayDecodeAllUncompressed-5-2,0.7022289243445168,< 1%
+669,BenchmarkTimeArrayDecodeAllUncompressed-5-2,1.9148582719848872,1% - 3%
+670,BenchmarkTimeArrayDecodeAllUncompressed-55-2,0.45192089059603596,< 1%
+671,BenchmarkTimeArrayDecodeAllUncompressed-55-2,0.5277332325533068,< 1%
+672,BenchmarkTimeArrayDecodeAllUncompressed-555-2,0.4274241662084788,< 1%
+673,BenchmarkTimeArrayDecodeAllUncompressed-555-2,0.5137020191098851,< 1%
+674,BenchmarkTimeBatch_DecodeAllPackedSimple-1000-2,2.485366405389222,1% - 3%
+675,BenchmarkTimeBatch_DecodeAllPackedSimple-1000-2,2.8964129698840546,1% - 3%
+676,BenchmarkTimeBatch_DecodeAllPackedSimple-5-2,2.436137251834758,1% - 3%
+677,BenchmarkTimeBatch_DecodeAllPackedSimple-5-2,4.334260426462833,3% - 5%
+678,BenchmarkTimeBatch_DecodeAllPackedSimple-55-2,2.8387522314773266,1% - 3%
+679,BenchmarkTimeBatch_DecodeAllPackedSimple-55-2,3.4684736187917897,3% - 5%
+680,BenchmarkTimeBatch_DecodeAllPackedSimple-555-2,3.2451208340253275,3% - 5%
+681,BenchmarkTimeBatch_DecodeAllPackedSimple-555-2,3.0020841804979987,3% - 5%
+682,BenchmarkTimeBatch_DecodeAllRLE-1000_delta_10-2,1.5026151828216872,1% - 3%
+683,BenchmarkTimeBatch_DecodeAllRLE-1000_delta_10-2,2.6089924734396757,1% - 3%
+684,BenchmarkTimeBatch_DecodeAllRLE-555_delta_10-2,1.6926580015461878,1% - 3%
+685,BenchmarkTimeBatch_DecodeAllRLE-555_delta_10-2,2.5507228809694698,1% - 3%
+686,BenchmarkTimeBatch_DecodeAllRLE-55_delta_10-2,4.236309092724322,3% - 5%
+687,BenchmarkTimeBatch_DecodeAllRLE-55_delta_10-2,3.736217721841283,3% - 5%
+688,BenchmarkTimeBatch_DecodeAllRLE-5_delta_10-2,3.651725022297503,3% - 5%
+689,BenchmarkTimeBatch_DecodeAllRLE-5_delta_10-2,6.675139506231587,5% - 10%
+690,BenchmarkTimeBatch_DecodeAllUncompressed-1000-2,2.501344535971695,1% - 3%
+691,BenchmarkTimeBatch_DecodeAllUncompressed-1000-2,3.9620014778322887,3% - 5%
+692,BenchmarkTimeBatch_DecodeAllUncompressed-5-2,3.2607033606903753,3% - 5%
+693,BenchmarkTimeBatch_DecodeAllUncompressed-5-2,6.711197132141855,5% - 10%
+694,BenchmarkTimeBatch_DecodeAllUncompressed-55-2,2.4957956709552365,1% - 3%
+695,BenchmarkTimeBatch_DecodeAllUncompressed-55-2,4.877420250495657,3% - 5%
+696,BenchmarkTimeBatch_DecodeAllUncompressed-555-2,1.600872870845338,1% - 3%
+697,BenchmarkTimeBatch_DecodeAllUncompressed-555-2,2.475979176214138,1% - 3%
+698,BenchmarkTimeDecoder_Packed-2,0.686422324126068,< 1%
+699,BenchmarkTimeDecoder_Packed-2,0.6472776337616892,< 1%
+700,BenchmarkTimeDecoder_RLE-2,0.5554101400278344,< 1%
+701,BenchmarkTimeDecoder_RLE-2,0.641573994867406,< 1%
+702,BenchmarkTimeEncoder-2,0.8783647758147884,< 1%
+703,BenchmarkTimeEncoder-2,0.8334937725894109,< 1%
+704,BenchmarkTree_Insert-2,0.8915970394175798,< 1%
+705,BenchmarkTree_Insert-2,1.0799507096890482,1% - 3%
+706,BenchmarkTree_InsertNew-2,1.8990957194247815,1% - 3%
+707,BenchmarkTree_InsertNew-2,2.301350177374062,1% - 3%
+708,BenchmarkUnescapeMany-2,2.055469961945444,1% - 3%
+709,BenchmarkUnescapeMany-2,2.3942881959969076,1% - 3%
+710,BenchmarkUnescapeNoEscapes-2,0.5333581775092244,< 1%
+711,BenchmarkUnescapeNoEscapes-2,0.5208913614091149,< 1%
+712,BenchmarkValues_Deduplicate-2,0.6782206169267946,< 1%
+713,BenchmarkValues_Deduplicate-2,0.7235978600989235,< 1%
+714,BenchmarkValues_EncodeBool-2,0.8085582978044403,< 1%
+715,BenchmarkValues_EncodeBool-2,0.5685093305899613,< 1%
+716,BenchmarkValues_EncodeFloat-2,1.258881756636443,1% - 3%
+717,BenchmarkValues_EncodeFloat-2,0.6234878933406685,< 1%
+718,BenchmarkValues_EncodeInteger-2,2.0645261298492423,1% - 3%
+719,BenchmarkValues_EncodeInteger-2,3.230054013217498,3% - 5%
+720,BenchmarkValues_EncodeString-2,2.596457774423933,1% - 3%
+721,BenchmarkValues_EncodeString-2,2.2533484488353466,1% - 3%
+722,BenchmarkValues_Merge-2,1.2340165814561765,1% - 3%
+723,BenchmarkValues_Merge-2,1.0411353860270256,1% - 3%
+724,BenchmarkValues_MergeDisjoint-2,1.2857360560038167,1% - 3%
+725,BenchmarkValues_MergeDisjoint-2,1.915820988755912,1% - 3%
+726,BenchmarkValues_MergeSame-2,1.3471993480673294,1% - 3%
+727,BenchmarkValues_MergeSame-2,1.1689899534719883,1% - 3%
+728,BenchmarkValues_MergeSimilar-2,1.2320354050263436,1% - 3%
+729,BenchmarkValues_MergeSimilar-2,1.1876572699857868,1% - 3%
+730,BenchmarkValues_MergeUnevenA-2,1.7959296278370118,1% - 3%
+731,BenchmarkValues_MergeUnevenA-2,1.810910812708888,1% - 3%
+732,BenchmarkValues_MergeUnevenB-2,1.3623291454195274,1% - 3%
+733,BenchmarkValues_MergeUnevenB-2,1.7611287878243842,1% - 3%
+734,BenchmarkWritePoints_ExistingSeries_100K-2,2.48210736791058,1% - 3%
+735,BenchmarkWritePoints_ExistingSeries_100K-2,3.9867630220881356,3% - 5%
+736,BenchmarkWritePoints_ExistingSeries_100K_1_1-2,17.339337864360527,> 10%
+737,BenchmarkWritePoints_ExistingSeries_100K_1_1-2,9.907641762696052,5% - 10%
+738,BenchmarkWritePoints_ExistingSeries_100K_1_1_Fields-2,24.94705374840106,> 10%
+739,BenchmarkWritePoints_ExistingSeries_100K_1_1_Fields-2,30.879582880737125,> 10%
+740,BenchmarkWritePoints_ExistingSeries_10K_10_1-2,5.622773796066349,5% - 10%
+741,BenchmarkWritePoints_ExistingSeries_10K_10_1-2,10.178648333723883,> 10%
+742,BenchmarkWritePoints_ExistingSeries_10K_10_1_Fields-2,3.080154878336439,3% - 5%
+743,BenchmarkWritePoints_ExistingSeries_10K_10_1_Fields-2,6.337121959975088,5% - 10%
+744,BenchmarkWritePoints_ExistingSeries_1K-2,6.396746917236451,5% - 10%
+745,BenchmarkWritePoints_ExistingSeries_1K-2,5.750813961100798,5% - 10%
+746,BenchmarkWritePoints_ExistingSeries_250K-2,11.419603239057993,> 10%
+747,BenchmarkWritePoints_ExistingSeries_250K-2,28.46590921122039,> 10%
+748,BenchmarkWritePoints_NewSeries_100000_Measurement_1_TagKey_1_TagValue-2,4.16614021341849,3% - 5%
+749,BenchmarkWritePoints_NewSeries_100000_Measurement_1_TagKey_1_TagValue-2,5.963624208224161,5% - 10%
+750,BenchmarkWritePoints_NewSeries_10000_Measurement_1_TagKey_1_TagValue-2,3.240549658947345,3% - 5%
+751,BenchmarkWritePoints_NewSeries_10000_Measurement_1_TagKey_1_TagValue-2,4.482267904945203,3% - 5%
+752,BenchmarkWritePoints_NewSeries_1000_Measurement_10_TagKey_1_TagValue-2,4.531757257135249,3% - 5%
+753,BenchmarkWritePoints_NewSeries_1000_Measurement_10_TagKey_1_TagValue-2,4.701596887504089,3% - 5%
+754,BenchmarkWritePoints_NewSeries_1000_Measurement_1_TagKey_1_TagValue-2,7.326400958462398,5% - 10%
+755,BenchmarkWritePoints_NewSeries_1000_Measurement_1_TagKey_1_TagValue-2,6.774785123317695,5% - 10%
+756,BenchmarkWritePoints_NewSeries_100K-2,4.247716594053085,3% - 5%
+757,BenchmarkWritePoints_NewSeries_100K-2,8.00580835387441,5% - 10%
+758,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,10.384618652318943,> 10%
+759,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,4.830150710751912,3% - 5%
+760,BenchmarkWritePoints_NewSeries_1K-2,6.956305816754094,5% - 10%
+761,BenchmarkWritePoints_NewSeries_1K-2,4.985871488994609,3% - 5%
+762,BenchmarkWritePoints_NewSeries_1_Measurements_4_TagKeys_1_TagValue-2,6.404849849432859,5% - 10%
+763,BenchmarkWritePoints_NewSeries_1_Measurements_4_TagKeys_1_TagValue-2,6.164293591190285,5% - 10%
+764,BenchmarkWritePoints_NewSeries_1_Measurements_8_TagKeys_1_TagValue-2,6.116809179759208,5% - 10%
+765,BenchmarkWritePoints_NewSeries_1_Measurements_8_TagKeys_1_TagValue-2,51.298222037119395,> 10%
+766,BenchmarkWritePoints_NewSeries_1_Measurement_1024_TagKeys_1_TagValue-2,4.832625687383574,3% - 5%
+767,BenchmarkWritePoints_NewSeries_1_Measurement_1024_TagKeys_1_TagValue-2,5.776946231136392,5% - 10%
+768,BenchmarkWritePoints_NewSeries_1_Measurement_128_TagKeys_1_TagValue-2,7.70841175289565,5% - 10%
+769,BenchmarkWritePoints_NewSeries_1_Measurement_128_TagKeys_1_TagValue-2,6.358799390914028,5% - 10%
+770,BenchmarkWritePoints_NewSeries_1_Measurement_16_TagKeys_1_TagValue-2,5.90019349487152,5% - 10%
+771,BenchmarkWritePoints_NewSeries_1_Measurement_16_TagKeys_1_TagValue-2,10.064415448285112,> 10%
+772,BenchmarkWritePoints_NewSeries_1_Measurement_16_TagKeys_2_TagValue-2,5.500386370466592,5% - 10%
+773,BenchmarkWritePoints_NewSeries_1_Measurement_16_TagKeys_2_TagValue-2,5.009446206700063,5% - 10%
+774,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_100000_TagValues-2,3.393248784759295,3% - 5%
+775,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_100000_TagValues-2,17.725946843180797,> 10%
+776,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_10000_TagValues-2,3.7903560905369393,3% - 5%
+777,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_10000_TagValues-2,4.823307590669701,3% - 5%
+778,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_1000_TagValues-2,15.783030278998899,> 10%
+779,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_1000_TagValues-2,9.481955933062391,5% - 10%
+780,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_100_TagValues-2,8.443569551041607,5% - 10%
+781,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_100_TagValues-2,76.34575163485836,> 10%
+782,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_500000_TagValues-2,8.266329358982837,5% - 10%
+783,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_500000_TagValues-2,10.185870373924288,> 10%
+784,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_50000_TagValues-2,4.534583158963712,3% - 5%
+785,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_50000_TagValues-2,6.757323131283588,5% - 10%
+786,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_5000_TagValues-2,7.005524762096793,5% - 10%
+787,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_5000_TagValues-2,5.975434896489583,5% - 10%
+788,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_500_TagValues-2,11.093029740274417,> 10%
+789,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_500_TagValues-2,5.419741485313767,5% - 10%
+790,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_65536_TagValue-2,4.508795635020146,3% - 5%
+791,BenchmarkWritePoints_NewSeries_1_Measurement_1_TagKey_65536_TagValue-2,5.022418392453808,5% - 10%
+792,BenchmarkWritePoints_NewSeries_1_Measurement_256_TagKeys_1_TagValue-2,57.0845384002185,> 10%
+793,BenchmarkWritePoints_NewSeries_1_Measurement_256_TagKeys_1_TagValue-2,4.9490252577856335,3% - 5%
+794,BenchmarkWritePoints_NewSeries_1_Measurement_2_TagKeys_1_TagValue-2,7.757602664896134,5% - 10%
+795,BenchmarkWritePoints_NewSeries_1_Measurement_2_TagKeys_1_TagValue-2,10.011316721510056,> 10%
+796,BenchmarkWritePoints_NewSeries_1_Measurement_2_TagKeys_256_TagValue-2,3.5255545972590947,3% - 5%
+797,BenchmarkWritePoints_NewSeries_1_Measurement_2_TagKeys_256_TagValue-2,5.473951039141811,5% - 10%
+798,BenchmarkWritePoints_NewSeries_1_Measurement_32_TagKeys_1_TagValue-2,6.811681429025285,5% - 10%
+799,BenchmarkWritePoints_NewSeries_1_Measurement_32_TagKeys_1_TagValue-2,17.730711133243325,> 10%
+800,BenchmarkWritePoints_NewSeries_1_Measurement_4_TagKeys_16_TagValue-2,4.062049291659054,3% - 5%
+801,BenchmarkWritePoints_NewSeries_1_Measurement_4_TagKeys_16_TagValue-2,4.730316191869177,3% - 5%
+802,BenchmarkWritePoints_NewSeries_1_Measurement_512_TagKeys_1_TagValue-2,7.04902238869215,5% - 10%
+803,BenchmarkWritePoints_NewSeries_1_Measurement_512_TagKeys_1_TagValue-2,7.008478797342876,5% - 10%
+804,BenchmarkWritePoints_NewSeries_1_Measurement_64_TagKeys_1_TagValue-2,9.974457650589718,5% - 10%
+805,BenchmarkWritePoints_NewSeries_1_Measurement_64_TagKeys_1_TagValue-2,8.689704531564368,5% - 10%
+806,BenchmarkWritePoints_NewSeries_1_Measurement_8_TagKeys_4_TagValue-2,31.746097540355294,> 10%
+807,BenchmarkWritePoints_NewSeries_1_Measurement_8_TagKeys_4_TagValue-2,33.10687818171922,> 10%
+808,BenchmarkWritePoints_NewSeries_250K-2,5.047850128405795,5% - 10%
+809,BenchmarkWritePoints_NewSeries_250K-2,6.535247243920015,5% - 10%
+810,BenchmarkWritePoints_NewSeries_50000_Measurement_1_TagKey_1_TagValue-2,6.012640363565701,5% - 10%
+811,BenchmarkWritePoints_NewSeries_50000_Measurement_1_TagKey_1_TagValue-2,26.169580299324767,> 10%
+812,BenchmarkWritePoints_NewSeries_5000_Measurement_1_TagKey_1_TagValue-2,3.7363166309269946,3% - 5%
+813,BenchmarkWritePoints_NewSeries_5000_Measurement_1_TagKey_1_TagValue-2,3.724923375722023,3% - 5%
+814,BenchmarkWritePoints_NewSeries_500K-2,4.2659618710422675,3% - 5%
+815,BenchmarkWritePoints_NewSeries_500K-2,4.461896639715013,3% - 5%
+816,BenchmarkWritePoints_NewSeries_500_Measurements_1_TagKey_1_TagValue-2,6.608591578004619,5% - 10%
+817,BenchmarkWritePoints_NewSeries_500_Measurements_1_TagKey_1_TagValue-2,7.8773890160010485,5% - 10%
