@@ -1,7 +1,10 @@
 #!/bin/bash
 
 commitTable="commitTable_short.csv"
-#commitTable="commitTable_all.csv"
+# commitTable="commitTable_all.csv"
+
+configFile="abs_config.json"
+# configFile="abs_config_optim.json"
 
 startNum=$1
 endNum=$2
@@ -34,8 +37,8 @@ runBenchmark() {
 	instance=$1
 	resultPath=$2
 
-	gcloud compute scp "$PWD/abs_config.json" $instance:~/  $zone
-	gcloud compute ssh $instance $zone -- 'sudo chown -R $USER:$USER . ; mkdir -p results; goabs -c abs_config.json -d -o results/microbenchResults.csv'
+	gcloud compute scp "$PWD/$configFile" $instance:~/  $zone
+	gcloud compute ssh $instance $zone -- 'sudo chown -R $USER:$USER . ; mkdir -p results; goabs -c '"$configFile"' -d -o results/microbenchResults.csv'
 }
 
 getResults() {
