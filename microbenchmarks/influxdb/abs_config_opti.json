@@ -1,0 +1,58 @@
+{
+	"project": "/home/pi/influxdbOld",
+	"project2": "/home/pi/influxdbNew",
+	"dynamic": {
+		"bench_time": "1s",
+		"bench_timeout": "10s",
+		"i": 5,
+		"runs": 3,
+        "include_benchs": [
+            {
+                "pkg": "/tsdb",
+                "name": "BenchmarkWritePoints_ExistingSeries_250K"
+            },
+            {
+                "pkg": "/models",
+                "name": "BenchmarkParsePointsTagsUnSorted5"
+            },
+            {
+                "pkg": "/tsdb",
+                "name": "BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue"
+
+            },
+            {
+                "pkg": "/tsdb",
+                "name": "BenchmarkWritePoints_ExistingSeries_500K"
+
+            },
+            {
+                "pkg": "/tsdb/index/tsi1",
+                "name": "BenchmarkIndex_IndexFile_TagValueSeriesIDIterator"
+
+            },
+            {
+                "pkg": "/tsdb",
+                "name": "BenchmarkCreateIterator"
+
+            },
+            {
+                "pkg": "/tsdb/engine/tsm1",
+                "name": "BenchmarkIntegerArrayDecodeAllPackedSimple"
+
+            },
+            {
+                "pkg": "/tsdb/engine/tsm1",
+                "name": "BenchmarkValues_EncodeInteger"
+
+            },
+            {
+                "pkg": "/tsdb/engine/tsm1",
+                "name": "BenchmarkDecodeFloatArrayBlock"
+            },
+            {
+                "pkg": "/tsdb/cursors",
+                "name": "BenchmarkIntegerArray_IncludeFirst_10000"
+            }
+        ]
+	}
+}
