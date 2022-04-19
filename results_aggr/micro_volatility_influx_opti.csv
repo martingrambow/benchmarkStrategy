@@ -1,0 +1,311 @@
+,name,var,volatility
+0,BenchmarkCreateIterator-tsi1_shards_1-2,3.2416759380690774,3% - 4%
+1,BenchmarkCreateIterator-tsi1_shards_1-2,2.406455776822969,2% - 3%
+2,BenchmarkCreateIterator-tsi1_shards_1-2,1.667279315233916,1% - 2%
+3,BenchmarkCreateIterator-tsi1_shards_1-2,1.8311302261965643,1% - 2%
+4,BenchmarkCreateIterator-tsi1_shards_1-2,1.8168699676892495,1% - 2%
+5,BenchmarkCreateIterator-tsi1_shards_1-2,2.0074750830564647,2% - 3%
+6,BenchmarkCreateIterator-tsi1_shards_1-2,2.3069721450812097,2% - 3%
+7,BenchmarkCreateIterator-tsi1_shards_1-2,2.3542681437418334,2% - 3%
+8,BenchmarkCreateIterator-tsi1_shards_1-2,2.3972033241837054,2% - 3%
+9,BenchmarkCreateIterator-tsi1_shards_1-2,2.6085236679022072,2% - 3%
+10,BenchmarkCreateIterator-tsi1_shards_1-2,1.8196489599595078,1% - 2%
+11,BenchmarkCreateIterator-tsi1_shards_1-2,1.6220820422926607,1% - 2%
+12,BenchmarkCreateIterator-tsi1_shards_1-2,3.1873248135303234,3% - 4%
+13,BenchmarkCreateIterator-tsi1_shards_1-2,2.0394663787703493,2% - 3%
+14,BenchmarkCreateIterator-tsi1_shards_1-2,3.5541980730156686,3% - 4%
+15,BenchmarkCreateIterator-tsi1_shards_2-2,1.9371134151825453,1% - 2%
+16,BenchmarkCreateIterator-tsi1_shards_2-2,3.49744334364952,3% - 4%
+17,BenchmarkCreateIterator-tsi1_shards_2-2,2.1951915427207758,2% - 3%
+18,BenchmarkCreateIterator-tsi1_shards_2-2,2.215137819767266,2% - 3%
+19,BenchmarkCreateIterator-tsi1_shards_2-2,2.2324654247812603,2% - 3%
+20,BenchmarkCreateIterator-tsi1_shards_2-2,2.2188888544516394,2% - 3%
+21,BenchmarkCreateIterator-tsi1_shards_2-2,2.2802796475056786,2% - 3%
+22,BenchmarkCreateIterator-tsi1_shards_2-2,1.8597832160017869,1% - 2%
+23,BenchmarkCreateIterator-tsi1_shards_2-2,2.6298582906864265,2% - 3%
+24,BenchmarkCreateIterator-tsi1_shards_2-2,3.624104509060244,3% - 4%
+25,BenchmarkCreateIterator-tsi1_shards_2-2,2.067996780066672,2% - 3%
+26,BenchmarkCreateIterator-tsi1_shards_2-2,2.302310602415003,2% - 3%
+27,BenchmarkCreateIterator-tsi1_shards_2-2,2.6292765809919576,2% - 3%
+28,BenchmarkCreateIterator-tsi1_shards_2-2,2.08783994832944,2% - 3%
+29,BenchmarkCreateIterator-tsi1_shards_2-2,2.2606072415655705,2% - 3%
+30,BenchmarkCreateIterator-tsi1_shards_3-2,2.27229285541134,2% - 3%
+31,BenchmarkCreateIterator-tsi1_shards_3-2,2.6343312417905107,2% - 3%
+32,BenchmarkCreateIterator-tsi1_shards_3-2,2.499910158161578,2% - 3%
+33,BenchmarkCreateIterator-tsi1_shards_3-2,2.232635060639465,2% - 3%
+34,BenchmarkCreateIterator-tsi1_shards_3-2,2.682365253793817,2% - 3%
+35,BenchmarkCreateIterator-tsi1_shards_3-2,2.7260614736698163,2% - 3%
+36,BenchmarkCreateIterator-tsi1_shards_3-2,2.109797569316163,2% - 3%
+37,BenchmarkCreateIterator-tsi1_shards_3-2,2.3699941403426688,2% - 3%
+38,BenchmarkCreateIterator-tsi1_shards_3-2,2.0955400674393054,2% - 3%
+39,BenchmarkCreateIterator-tsi1_shards_3-2,3.3586132177681365,3% - 4%
+40,BenchmarkCreateIterator-tsi1_shards_3-2,2.5298741645033207,2% - 3%
+41,BenchmarkCreateIterator-tsi1_shards_3-2,2.9215358931552586,2% - 3%
+42,BenchmarkCreateIterator-tsi1_shards_3-2,2.948551072453976,2% - 3%
+43,BenchmarkCreateIterator-tsi1_shards_3-2,2.1250595669582206,2% - 3%
+44,BenchmarkCreateIterator-tsi1_shards_3-2,2.1829154356993064,2% - 3%
+45,BenchmarkCreateIterator-tsi1_shards_4-2,4.123658124991136,4% - 5%
+46,BenchmarkCreateIterator-tsi1_shards_4-2,3.4249807656408837,3% - 4%
+47,BenchmarkCreateIterator-tsi1_shards_4-2,4.328743099697385,4% - 5%
+48,BenchmarkCreateIterator-tsi1_shards_4-2,3.008547724931865,3% - 4%
+49,BenchmarkCreateIterator-tsi1_shards_4-2,2.619676668307769,2% - 3%
+50,BenchmarkCreateIterator-tsi1_shards_4-2,4.032206160302665,4% - 5%
+51,BenchmarkCreateIterator-tsi1_shards_4-2,3.930351530498188,3% - 4%
+52,BenchmarkCreateIterator-tsi1_shards_4-2,4.257505755485912,4% - 5%
+53,BenchmarkCreateIterator-tsi1_shards_4-2,2.6033816447320057,2% - 3%
+54,BenchmarkCreateIterator-tsi1_shards_4-2,4.445209390944194,4% - 5%
+55,BenchmarkCreateIterator-tsi1_shards_4-2,3.0224014405829447,3% - 4%
+56,BenchmarkCreateIterator-tsi1_shards_4-2,2.7080007036717757,2% - 3%
+57,BenchmarkCreateIterator-tsi1_shards_4-2,2.610375518059316,2% - 3%
+58,BenchmarkCreateIterator-tsi1_shards_4-2,3.4170681041457707,3% - 4%
+59,BenchmarkCreateIterator-tsi1_shards_4-2,2.7585235933198176,2% - 3%
+60,BenchmarkCreateIterator-tsi1_shards_5-2,3.059039223218729,3% - 4%
+61,BenchmarkCreateIterator-tsi1_shards_5-2,3.7444278379604627,3% - 4%
+62,BenchmarkCreateIterator-tsi1_shards_5-2,2.745927598514297,2% - 3%
+63,BenchmarkCreateIterator-tsi1_shards_5-2,2.4204033323649505,2% - 3%
+64,BenchmarkCreateIterator-tsi1_shards_5-2,2.952773311695811,2% - 3%
+65,BenchmarkCreateIterator-tsi1_shards_5-2,4.2876064116579515,4% - 5%
+66,BenchmarkCreateIterator-tsi1_shards_5-2,2.819845462421511,2% - 3%
+67,BenchmarkCreateIterator-tsi1_shards_5-2,3.051578428912105,3% - 4%
+68,BenchmarkCreateIterator-tsi1_shards_5-2,4.3297851625884505,4% - 5%
+69,BenchmarkCreateIterator-tsi1_shards_5-2,3.276059739323645,3% - 4%
+70,BenchmarkCreateIterator-tsi1_shards_5-2,3.3522584721545456,3% - 4%
+71,BenchmarkCreateIterator-tsi1_shards_5-2,2.8490508783168833,2% - 3%
+72,BenchmarkCreateIterator-tsi1_shards_5-2,4.05529938014213,4% - 5%
+73,BenchmarkCreateIterator-tsi1_shards_5-2,2.649119422239654,2% - 3%
+74,BenchmarkCreateIterator-tsi1_shards_5-2,2.6206046215101475,2% - 3%
+75,BenchmarkDecodeFloatArrayBlock-1000-2,0.6727439281911551,< 1%
+76,BenchmarkDecodeFloatArrayBlock-1000-2,1.1063324883557657,1% - 2%
+77,BenchmarkDecodeFloatArrayBlock-1000-2,0.3282370224509723,< 1%
+78,BenchmarkDecodeFloatArrayBlock-1000-2,0.3120704923005757,< 1%
+79,BenchmarkDecodeFloatArrayBlock-1000-2,0.4311668543566459,< 1%
+80,BenchmarkDecodeFloatArrayBlock-1000-2,0.49983789803080825,< 1%
+81,BenchmarkDecodeFloatArrayBlock-1000-2,0.6898277188104873,< 1%
+82,BenchmarkDecodeFloatArrayBlock-1000-2,0.5338488081106041,< 1%
+83,BenchmarkDecodeFloatArrayBlock-1000-2,0.5837661680313967,< 1%
+84,BenchmarkDecodeFloatArrayBlock-1000-2,1.0784416752938508,1% - 2%
+85,BenchmarkDecodeFloatArrayBlock-1000-2,0.7027357091407449,< 1%
+86,BenchmarkDecodeFloatArrayBlock-1000-2,0.3110419906687478,< 1%
+87,BenchmarkDecodeFloatArrayBlock-1000-2,0.4490621553029817,< 1%
+88,BenchmarkDecodeFloatArrayBlock-1000-2,0.3125379311746946,< 1%
+89,BenchmarkDecodeFloatArrayBlock-1000-2,0.3453102879034442,< 1%
+90,BenchmarkDecodeFloatArrayBlock-5-2,0.3065262465793861,< 1%
+91,BenchmarkDecodeFloatArrayBlock-5-2,1.1471265261468355,1% - 2%
+92,BenchmarkDecodeFloatArrayBlock-5-2,0.3537563016605682,< 1%
+93,BenchmarkDecodeFloatArrayBlock-5-2,0.47149208526774417,< 1%
+94,BenchmarkDecodeFloatArrayBlock-5-2,0.6708033429127069,< 1%
+95,BenchmarkDecodeFloatArrayBlock-5-2,0.5175794640341458,< 1%
+96,BenchmarkDecodeFloatArrayBlock-5-2,0.5274021838211682,< 1%
+97,BenchmarkDecodeFloatArrayBlock-5-2,0.36225919600016954,< 1%
+98,BenchmarkDecodeFloatArrayBlock-5-2,0.5368786519228674,< 1%
+99,BenchmarkDecodeFloatArrayBlock-5-2,1.0077287246967659,1% - 2%
+100,BenchmarkDecodeFloatArrayBlock-5-2,0.8456659619450413,< 1%
+101,BenchmarkDecodeFloatArrayBlock-5-2,0.41446460446747935,< 1%
+102,BenchmarkDecodeFloatArrayBlock-5-2,0.5327967096899423,< 1%
+103,BenchmarkDecodeFloatArrayBlock-5-2,0.5549920960741699,< 1%
+104,BenchmarkDecodeFloatArrayBlock-5-2,0.3345389404060928,< 1%
+105,BenchmarkDecodeFloatArrayBlock-55-2,0.4226658983185194,< 1%
+106,BenchmarkDecodeFloatArrayBlock-55-2,0.7546395159436894,< 1%
+107,BenchmarkDecodeFloatArrayBlock-55-2,0.41993027493792967,< 1%
+108,BenchmarkDecodeFloatArrayBlock-55-2,0.37024267733519745,< 1%
+109,BenchmarkDecodeFloatArrayBlock-55-2,0.5983722608503108,< 1%
+110,BenchmarkDecodeFloatArrayBlock-55-2,0.4223312887533637,< 1%
+111,BenchmarkDecodeFloatArrayBlock-55-2,1.0039792506125633,1% - 2%
+112,BenchmarkDecodeFloatArrayBlock-55-2,0.47560323035003016,< 1%
+113,BenchmarkDecodeFloatArrayBlock-55-2,0.5817657409483257,< 1%
+114,BenchmarkDecodeFloatArrayBlock-55-2,1.0798163410847716,1% - 2%
+115,BenchmarkDecodeFloatArrayBlock-55-2,0.9206726841361035,< 1%
+116,BenchmarkDecodeFloatArrayBlock-55-2,0.5022814516409624,< 1%
+117,BenchmarkDecodeFloatArrayBlock-55-2,0.39634181399829105,< 1%
+118,BenchmarkDecodeFloatArrayBlock-55-2,0.5290736995118839,< 1%
+119,BenchmarkDecodeFloatArrayBlock-55-2,0.5274261603375519,< 1%
+120,BenchmarkDecodeFloatArrayBlock-555-2,0.31002960914847666,< 1%
+121,BenchmarkDecodeFloatArrayBlock-555-2,0.8738542881568057,< 1%
+122,BenchmarkDecodeFloatArrayBlock-555-2,0.49796698032085196,< 1%
+123,BenchmarkDecodeFloatArrayBlock-555-2,0.49865509008300024,< 1%
+124,BenchmarkDecodeFloatArrayBlock-555-2,0.40658651383045363,< 1%
+125,BenchmarkDecodeFloatArrayBlock-555-2,0.5238709421041432,< 1%
+126,BenchmarkDecodeFloatArrayBlock-555-2,0.7441586415771861,< 1%
+127,BenchmarkDecodeFloatArrayBlock-555-2,0.5261559244765457,< 1%
+128,BenchmarkDecodeFloatArrayBlock-555-2,0.5899560531527515,< 1%
+129,BenchmarkDecodeFloatArrayBlock-555-2,0.6190048267250781,< 1%
+130,BenchmarkDecodeFloatArrayBlock-555-2,0.8082842800577028,< 1%
+131,BenchmarkDecodeFloatArrayBlock-555-2,0.4666125773040153,< 1%
+132,BenchmarkDecodeFloatArrayBlock-555-2,0.7132642042461557,< 1%
+133,BenchmarkDecodeFloatArrayBlock-555-2,0.4990992355910385,< 1%
+134,BenchmarkDecodeFloatArrayBlock-555-2,0.43538071827320385,< 1%
+135,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,4.172266414018722,4% - 5%
+136,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,11.515189917682788,> 10%
+137,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,6.7299937445784455,6% - 7%
+138,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,7.631431156623158,7% - 8%
+139,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,6.778998519269164,6% - 7%
+140,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,5.436399786595491,5% - 6%
+141,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,10.60080358046114,> 10%
+142,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,6.154505912440733,6% - 7%
+143,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,11.217657713308204,> 10%
+144,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,12.196494113305201,> 10%
+145,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,26.927257265812592,> 10%
+146,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,6.767331781298246,6% - 7%
+147,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,5.102711080714473,5% - 6%
+148,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,7.242710564923261,7% - 8%
+149,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-cache-2,5.316792780459179,5% - 6%
+150,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,2.3605388481498735,2% - 3%
+151,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,4.247560661376449,4% - 5%
+152,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,2.377787271607812,2% - 3%
+153,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,3.1919144679471323,3% - 4%
+154,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,3.527263196091013,3% - 4%
+155,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,2.5211294682146446,2% - 3%
+156,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,3.3420298176767735,3% - 4%
+157,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,2.3931105628383635,2% - 3%
+158,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,3.557335864769051,3% - 4%
+159,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,4.299597276418088,4% - 5%
+160,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,3.8236489686470643,3% - 4%
+161,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,3.3316232626000035,3% - 4%
+162,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,2.4576071174651215,2% - 3%
+163,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,3.027875456674345,3% - 4%
+164,BenchmarkIndex_IndexFile_TagValueSeriesIDIterator-78888_series_TagValueSeriesIDIterator-no_cache-2,2.671049391007307,2% - 3%
+165,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.5001037100486272,< 1%
+166,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,1.2307532941078891,1% - 2%
+167,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.6846488610919188,< 1%
+168,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.457581585443112,< 1%
+169,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.6815050457664285,< 1%
+170,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.6364480123729255,< 1%
+171,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.8619872191300892,< 1%
+172,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.8165144158321702,< 1%
+173,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,1.3132300621844228,1% - 2%
+174,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,2.055961626313385,2% - 3%
+175,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.6360745115856492,< 1%
+176,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.6861216027459927,< 1%
+177,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.7300116597352524,< 1%
+178,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.7291398697149454,< 1%
+179,BenchmarkIntegerArrayDecodeAllPackedSimple-1000-2,0.9096239738503487,< 1%
+180,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.923207331164234,1% - 2%
+181,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.8291271440092793,1% - 2%
+182,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.624551388890183,1% - 2%
+183,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,2.814661914496408,2% - 3%
+184,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.6118122196179696,1% - 2%
+185,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.6837482068171372,1% - 2%
+186,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,0.9060698615730112,< 1%
+187,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.0357510779633317,1% - 2%
+188,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.350784556042384,1% - 2%
+189,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.9531861009499552,1% - 2%
+190,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.8388764289906767,1% - 2%
+191,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.017065900626446,1% - 2%
+192,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.190316103813005,1% - 2%
+193,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,1.1517949670736827,1% - 2%
+194,BenchmarkIntegerArrayDecodeAllPackedSimple-5-2,2.2913759944432677,2% - 3%
+195,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,2.375156959335456,2% - 3%
+196,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,1.0013601195121513,1% - 2%
+197,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,1.3509690833842347,1% - 2%
+198,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,1.1408632853084688,1% - 2%
+199,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,1.2008900756564356,1% - 2%
+200,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,2.6247909765304667,2% - 3%
+201,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,2.2147651006711344,2% - 3%
+202,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,1.4004952268926842,1% - 2%
+203,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,1.066666666666649,1% - 2%
+204,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,2.734773295775461,2% - 3%
+205,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,2.1571161385658177,2% - 3%
+206,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,2.554249921496665,2% - 3%
+207,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,1.348795756890708,1% - 2%
+208,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,0.8731602298217789,< 1%
+209,BenchmarkIntegerArrayDecodeAllPackedSimple-55-2,1.4923264205904063,1% - 2%
+210,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.582018442445964,< 1%
+211,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,1.2509035307200378,1% - 2%
+212,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.41645885286784035,< 1%
+213,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.33472803347280866,< 1%
+214,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.8295314575118895,< 1%
+215,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.4168752894967209,< 1%
+216,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.501183398116889,< 1%
+217,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.5001396980165773,< 1%
+218,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.9964462117171058,< 1%
+219,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,2.245052695428007,2% - 3%
+220,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.7432038550293618,< 1%
+221,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.5848658720617239,< 1%
+222,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.667923279871685,< 1%
+223,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.6687587168758835,< 1%
+224,BenchmarkIntegerArrayDecodeAllPackedSimple-555-2,0.4178516964974177,< 1%
+225,BenchmarkIntegerArray_IncludeFirst_10000-2,0.9301224732500613,< 1%
+226,BenchmarkIntegerArray_IncludeFirst_10000-2,2.66621469593622,2% - 3%
+227,BenchmarkIntegerArray_IncludeFirst_10000-2,1.5330862265850231,1% - 2%
+228,BenchmarkIntegerArray_IncludeFirst_10000-2,2.0360781672087773,2% - 3%
+229,BenchmarkIntegerArray_IncludeFirst_10000-2,1.4013715014290162,1% - 2%
+230,BenchmarkIntegerArray_IncludeFirst_10000-2,1.1650624683525845,1% - 2%
+231,BenchmarkIntegerArray_IncludeFirst_10000-2,3.68514164860948,3% - 4%
+232,BenchmarkIntegerArray_IncludeFirst_10000-2,1.2092947144493493,1% - 2%
+233,BenchmarkIntegerArray_IncludeFirst_10000-2,2.1322658203803524,2% - 3%
+234,BenchmarkIntegerArray_IncludeFirst_10000-2,2.527803572588283,2% - 3%
+235,BenchmarkIntegerArray_IncludeFirst_10000-2,1.541248752822566,1% - 2%
+236,BenchmarkIntegerArray_IncludeFirst_10000-2,1.353700876573305,1% - 2%
+237,BenchmarkIntegerArray_IncludeFirst_10000-2,1.4370399070127937,1% - 2%
+238,BenchmarkIntegerArray_IncludeFirst_10000-2,1.4436789343290846,1% - 2%
+239,BenchmarkIntegerArray_IncludeFirst_10000-2,1.0358289155186329,1% - 2%
+240,BenchmarkIntegerArray_IncludeFirst_10000-2,1.370140542268361,1% - 2%
+241,BenchmarkIntegerArray_IncludeFirst_10000-2,0.890542433621111,< 1%
+242,BenchmarkIntegerArray_IncludeFirst_10000-2,1.9260181570166177,1% - 2%
+243,BenchmarkIntegerArray_IncludeFirst_10000-2,0.8933171579395993,< 1%
+244,BenchmarkIntegerArray_IncludeFirst_10000-2,0.7350637867879151,< 1%
+245,BenchmarkParsePointsTagsUnSorted5-2,1.6947609412178655,1% - 2%
+246,BenchmarkParsePointsTagsUnSorted5-2,2.010770638221626,2% - 3%
+247,BenchmarkParsePointsTagsUnSorted5-2,1.757402747614445,1% - 2%
+248,BenchmarkParsePointsTagsUnSorted5-2,1.6021415733667221,1% - 2%
+249,BenchmarkParsePointsTagsUnSorted5-2,1.1764815409287532,1% - 2%
+250,BenchmarkParsePointsTagsUnSorted5-2,1.463744522006527,1% - 2%
+251,BenchmarkParsePointsTagsUnSorted5-2,1.588792553666618,1% - 2%
+252,BenchmarkParsePointsTagsUnSorted5-2,1.6912947463126105,1% - 2%
+253,BenchmarkParsePointsTagsUnSorted5-2,1.985847543791408,1% - 2%
+254,BenchmarkParsePointsTagsUnSorted5-2,1.8080442241707906,1% - 2%
+255,BenchmarkParsePointsTagsUnSorted5-2,2.114551163937417,2% - 3%
+256,BenchmarkParsePointsTagsUnSorted5-2,2.550631513959978,2% - 3%
+257,BenchmarkParsePointsTagsUnSorted5-2,1.9473591164817283,1% - 2%
+258,BenchmarkParsePointsTagsUnSorted5-2,1.2320845896493404,1% - 2%
+259,BenchmarkParsePointsTagsUnSorted5-2,1.7119244391971655,1% - 2%
+260,BenchmarkParsePointsTagsUnSorted5-2,1.8829926909200045,1% - 2%
+261,BenchmarkParsePointsTagsUnSorted5-2,1.8685102743570714,1% - 2%
+262,BenchmarkParsePointsTagsUnSorted5-2,2.39486001226209,2% - 3%
+263,BenchmarkParsePointsTagsUnSorted5-2,1.5767820115646258,1% - 2%
+264,BenchmarkParsePointsTagsUnSorted5-2,1.1081478568297665,1% - 2%
+265,BenchmarkValues_EncodeInteger-2,1.622541703135738,1% - 2%
+266,BenchmarkValues_EncodeInteger-2,6.8000234895875264,6% - 7%
+267,BenchmarkValues_EncodeInteger-2,2.469219292102675,2% - 3%
+268,BenchmarkValues_EncodeInteger-2,2.9000003427483323,2% - 3%
+269,BenchmarkValues_EncodeInteger-2,2.337311534940123,2% - 3%
+270,BenchmarkValues_EncodeInteger-2,2.6645357794266022,2% - 3%
+271,BenchmarkValues_EncodeInteger-2,3.861061648891906,3% - 4%
+272,BenchmarkValues_EncodeInteger-2,2.9969137794135348,2% - 3%
+273,BenchmarkValues_EncodeInteger-2,3.366171556377784,3% - 4%
+274,BenchmarkValues_EncodeInteger-2,3.3087870445582146,3% - 4%
+275,BenchmarkValues_EncodeInteger-2,3.194234309400079,3% - 4%
+276,BenchmarkValues_EncodeInteger-2,2.570482452136935,2% - 3%
+277,BenchmarkValues_EncodeInteger-2,4.5082911258958696,4% - 5%
+278,BenchmarkValues_EncodeInteger-2,2.3386258170521534,2% - 3%
+279,BenchmarkValues_EncodeInteger-2,3.7691384643216197,3% - 4%
+280,BenchmarkWritePoints_ExistingSeries_250K-2,10.0107353816934,> 10%
+281,BenchmarkWritePoints_ExistingSeries_250K-2,16.155910086528433,> 10%
+282,BenchmarkWritePoints_ExistingSeries_250K-2,12.343331017785419,> 10%
+283,BenchmarkWritePoints_ExistingSeries_250K-2,10.238576593547933,> 10%
+284,BenchmarkWritePoints_ExistingSeries_250K-2,8.479572789545355,8% - 9%
+285,BenchmarkWritePoints_ExistingSeries_250K-2,8.569653285535352,8% - 9%
+286,BenchmarkWritePoints_ExistingSeries_250K-2,12.485086525146958,> 10%
+287,BenchmarkWritePoints_ExistingSeries_250K-2,12.35655051621799,> 10%
+288,BenchmarkWritePoints_ExistingSeries_250K-2,21.131816043014055,> 10%
+289,BenchmarkWritePoints_ExistingSeries_250K-2,13.454344211463798,> 10%
+290,BenchmarkWritePoints_ExistingSeries_250K-2,25.26330025666367,> 10%
+291,BenchmarkWritePoints_ExistingSeries_250K-2,17.608995618033315,> 10%
+292,BenchmarkWritePoints_ExistingSeries_250K-2,8.415888343807831,8% - 9%
+293,BenchmarkWritePoints_ExistingSeries_250K-2,10.126729103391485,> 10%
+294,BenchmarkWritePoints_ExistingSeries_250K-2,11.736579988963912,> 10%
+295,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,8.583219240477003,8% - 9%
+296,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,24.58660155139213,> 10%
+297,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,10.217808541693408,> 10%
+298,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,20.672752399906656,> 10%
+299,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,7.819934328371903,7% - 8%
+300,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,5.62530569494385,5% - 6%
+301,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,24.06419174055928,> 10%
+302,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,12.046892092917838,> 10%
+303,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,14.16778083138436,> 10%
+304,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,21.31789472613777,> 10%
+305,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,14.353160212188765,> 10%
+306,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,16.640327113458273,> 10%
+307,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,17.548363278515676,> 10%
+308,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,14.647789388664442,> 10%
+309,BenchmarkWritePoints_NewSeries_100_Measurements_1_TagKey_1_TagValue-2,54.92133158910213,> 10%
