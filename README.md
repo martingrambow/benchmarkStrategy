@@ -14,12 +14,18 @@ If you use (parts of) this software in a publication, please cite it as:
 
 ## Text
 
-TBD
+Martin Grambow, Denis Kovalev, Christoph Laaber, Philipp Leitner, David Bermbach. Using Microbenchmark Suites to Detect Application Performance Changes. In: IEEE Transactions on Cloud Computing. IEEE 2022.
 
 ## BibTeX
 
-```bibtex
-TBD
+```
+@article{hasenburg_mockfog_2021,
+	title = {{Using Microbenchmark Suites to Detect Application Performance Changes}},
+	journal = {{IEEE} Transactions on Cloud Computing},
+	volume = {Early Access},
+	author = {Grambow, Martin and Kovalev, Denis and Laaber, Christoph Laaber and Leitner, Philipp and Bermbach, David},
+	year = {2022}
+}
 ```
 
 For a full list of publications, please see [our website](https://www.tu.berlin/en/mcc/research/publications/).
