@@ -19,7 +19,7 @@ Martin Grambow, Denis Kovalev, Christoph Laaber, Philipp Leitner, David Bermbach
 ## BibTeX
 
 ```
-@article{hasenburg_mockfog_2021,
+@article{grambow_using_2022,
 	title = {{Using Microbenchmark Suites to Detect Application Performance Changes}},
 	journal = {{IEEE} Transactions on Cloud Computing},
 	volume = {Early Access},
